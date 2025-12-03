@@ -1,6 +1,7 @@
 ---
 import sites from "../../config/sites.json";
 const base = import.meta.env.BASE_URL;
+console.log("Base URL:", base);
 ---
 
 <html lang="en">
@@ -19,7 +20,7 @@ const base = import.meta.env.BASE_URL;
       <ul style="list-style:none;padding:0;margin:0;display:grid;gap:10px;">
         {sites.map((s) => (
           <li style="border:1px solid #e5e7eb;border-radius:14px;padding:14px;">
-            <a href={`${base}sites/${s.slug}/`} style="text-decoration:none;color:inherit;display:block;">
+            <a href={`${base}/${s.slug}/`} style="text-decoration:none;color:inherit;display:block;">
               <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;">
                 <strong>{s.name}</strong>
                 <span id={`badge-${s.slug}`} style="opacity:.75;">…</span>
@@ -33,7 +34,7 @@ const base = import.meta.env.BASE_URL;
 
     <script define:vars={{ base, slugs: sites.map(s => s.slug) }}>
       async function load() {
-        const res = await fetch(`${base}status.json`, { cache: "no-store" });
+        const res = await fetch(`${base}/status.json`, { cache: "no-store" });
         const data = await res.json();
 
         const updated = data.generatedAt ? new Date(data.generatedAt) : null;

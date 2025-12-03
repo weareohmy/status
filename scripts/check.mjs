@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import tls from "node:tls";
-import sites from "../config/sites.json" assert { type: "json" };
+import sites from "../config/sites.json" with { type: 'json' };
 
 async function checkHttp(url, timeoutMs = 10000) {
   const start = Date.now();
@@ -92,6 +92,7 @@ async function main() {
   }
 
   await fs.mkdir("public", { recursive: true });
+  console.log("Writing status.json", JSON.stringify(out, null, 2));
   await fs.writeFile("public/status.json", JSON.stringify(out, null, 2));
 }
 
