@@ -1,16 +1,57 @@
 ---
-
+import sites from "../../config/sites.json";
+const base = import.meta.env.BASE_URL;
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Status</title>
+  </head>
+  <body>
+    <main style="max-width:900px;margin:40px auto;font-family:ui-sans-serif,system-ui;padding:0 16px;">
+      <h1 style="margin:0 0 6px;">Status</h1>
+      <p style="margin:0 0 18px;opacity:.75;">Web up/down, SSL expiry, domain expiry.</p>
+
+      <div id="updated" style="margin:0 0 18px;opacity:.75;">Loading…</div>
+
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:10px;">
+        {sites.map((s) => (
+          <li style="border:1px solid #e5e7eb;border-radius:14px;padding:14px;">
+            <a href={`${base}sites/${s.slug}/`} style="text-decoration:none;color:inherit;display:block;">
+              <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;">
+                <strong>{s.name}</strong>
+                <span id={`badge-${s.slug}`} style="opacity:.75;">…</span>
+              </div>
+              <div style="opacity:.75;font-size:14px;margin-top:4px;">{s.url}</div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </main>
+
+    <script define:vars={{ base, slugs: sites.map(s => s.slug) }}>
+      async function load() {
+        const res = await fetch(`${base}status.json`, { cache: "no-store" });
+        const data = await res.json();
+
+        const updated = data.generatedAt ? new Date(data.generatedAt) : null;
+        document.querySelector("#updated").textContent =
+          updated ? `Last updated: ${updated.toLocaleString()}` : "No timestamp";
+
+        for (const slug of slugs) {
+          const el = document.querySelector(`#badge-${slug}`);
+          const s = data.sites?.[slug];
+          if (!el) continue;
+          if (!s) { el.textContent = "No data"; continue; }
+          el.textContent = s.http?.ok ? "Operational" : "Down";
+        }
+      }
+
+      load().catch(() => {
+        document.querySelector("#updated").textContent = "Could not load status.json";
+      });
+    </script>
+  </body>
 </html>

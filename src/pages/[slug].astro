@@ -1,0 +1,77 @@
+---
+import sites from "../../config/sites.json";
+
+export async function getStaticPaths() {
+  return sites.map((s) => ({ params: { slug: s.slug } }));
+}
+
+const site = sites.find((s) => s.slug === Astro.params.slug);
+if (!site) throw new Error("Unknown site slug");
+
+const base = import.meta.env.BASE_URL;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{site.name} — Status</title>
+  </head>
+  <body>
+    <main style="max-width:900px;margin:40px auto;font-family:ui-sans-serif,system-ui;padding:0 16px;">
+      <a href={base} style="display:inline-block;margin-bottom:16px;">← All sites</a>
+
+      <h1 style="margin:0 0 6px;">{site.name}</h1>
+      <p style="margin:0 0 18px;opacity:.75;">{site.url}</p>
+
+      <div style="border:1px solid #e5e7eb;border-radius:14px;padding:16px;">
+        <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;">
+          <strong id="overall">Loading…</strong>
+          <span id="updated" style="opacity:.75;"></span>
+        </div>
+
+        <hr style="border:none;border-top:1px solid #e5e7eb;margin:14px 0;" />
+
+        <div style="display:grid;gap:10px;">
+          <div>HTTP: <span id="http"></span></div>
+          <div>SSL: <span id="ssl"></span></div>
+          <div>Domain: <span id="domain"></span></div>
+        </div>
+      </div>
+    </main>
+
+    <script define:vars={{ base, slug: site.slug }}>
+      async function load() {
+        const res = await fetch(`${base}status.json`, { cache: "no-store" });
+        const data = await res.json();
+        const s = data.sites?.[slug];
+
+        const updated = data.generatedAt ? new Date(data.generatedAt) : null;
+        document.querySelector("#updated").textContent =
+          updated ? `Updated: ${updated.toLocaleString()}` : "";
+
+        if (!s) {
+          document.querySelector("#overall").textContent = "No data for this site";
+          return;
+        }
+
+        document.querySelector("#overall").textContent = s.http?.ok ? "Operational" : "Down";
+
+        document.querySelector("#http").textContent =
+          s.http?.ok ? `UP (${s.http.status} · ${s.http.ms}ms)` : `DOWN (${s.http?.error ?? "unknown"})`;
+
+        document.querySelector("#ssl").textContent =
+          s.ssl?.ok ? `Expires in ${s.ssl.daysLeft} days (${(s.ssl.expiresAt || "").slice(0,10)})`
+                   : `Unknown (${s.ssl?.error ?? "no data"})`;
+
+        document.querySelector("#domain").textContent =
+          s.domain?.ok ? `Expires in ${s.domain.daysLeft} days (${(s.domain.expiresAt || "").slice(0,10)})`
+                      : (s.domain?.error ? `Unknown (${s.domain.error})` : "Not configured");
+      }
+
+      load().catch(() => {
+        document.querySelector("#overall").textContent = "Could not load status.json";
+      });
+    </script>
+  </body>
+</html>
