@@ -34,7 +34,7 @@ console.log("Base URL:", base);
 
     <script define:vars={{ base, slugs: sites.map(s => s.slug) }}>
       async function load() {
-        const res = await fetch(`${base}/status.json`, { cache: "no-store" });
+        const res = await fetch("https://raw.githubusercontent.com/weareohmy/status/main/public/status.json", { cache: "no-store" });
         const data = await res.json();
 
         const updated = data.generatedAt ? new Date(data.generatedAt) : null;
