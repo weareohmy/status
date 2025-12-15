@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-15T22:09:22.681Z",
+  "generatedAt": "2025-12-15T22:22:28.502Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,15 +9,14 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 683,
+        "ms": 428,
         "error": null
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-03-10T14:03:57.000Z",
-        "daysLeft": 85,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error: Client network socket disconnected before secure TLS connection was established"
       },
       "domain": {
         "ok": true,
