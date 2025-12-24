@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-24T18:02:56.080Z",
+  "generatedAt": "2025-12-24T18:15:18.337Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 464,
+        "ms": 312,
         "error": null
       },
       "ssl": {
