@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-26T13:57:35.482Z",
+  "generatedAt": "2025-12-26T14:09:17.659Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,13 +9,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 173,
+        "ms": 609,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-03-10T14:03:57.000Z",
-        "daysLeft": 75,
+        "daysLeft": 74,
         "issuer": "Let's Encrypt",
         "subject": "www.ohmy.studio"
       },
