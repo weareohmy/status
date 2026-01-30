@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-29T23:54:20.841Z",
+  "generatedAt": "2026-01-30T00:13:54.844Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 649,
+        "ms": 371,
         "error": null
       },
       "ssl": {
@@ -20,10 +20,10 @@
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 639,
-        "source": "https://rdap.identitydigital.services/rdap/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected end of JSON input"
       }
     }
   }
