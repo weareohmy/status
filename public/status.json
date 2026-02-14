@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-14T14:33:15.946Z",
+  "generatedAt": "2026-02-14T14:47:58.970Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 505,
+        "ms": 447,
         "error": null
       },
       "ssl": {
@@ -22,7 +22,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 624,
+        "daysLeft": 623,
         "source": "https://rdap.identitydigital.services/rdap/"
       }
     }
