@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T21:01:19.770Z",
+  "generatedAt": "2026-03-06T21:15:02.755Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 447,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 64,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 612,
+        "ms": 457,
         "error": null
       },
       "ssl": {
@@ -56,16 +57,17 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 548,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 83,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -82,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 882,
+        "ms": 564,
         "error": null
       },
       "ssl": {
@@ -107,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1082,
+        "ms": 766,
         "error": null
       },
       "ssl": {
