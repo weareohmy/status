@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T20:49:52.965Z",
+  "generatedAt": "2026-03-06T21:01:19.770Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -13,11 +13,10 @@
         "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 64,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -34,7 +33,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 469,
+        "ms": 612,
         "error": null
       },
       "ssl": {
@@ -63,11 +62,10 @@
         "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-28T00:03:50.000Z",
-        "daysLeft": 83,
-        "issuer": "Let's Encrypt",
-        "subject": "www.currentvehicles.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -84,13 +82,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 735,
+        "ms": 882,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-04-16T20:53:48.000Z",
-        "daysLeft": 42,
+        "daysLeft": 41,
         "issuer": "Let's Encrypt",
         "subject": "www.rbbecon.com"
       },
@@ -109,7 +107,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 994,
+        "ms": 1082,
         "error": null
       },
       "ssl": {
