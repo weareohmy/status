@@ -14,63 +14,705 @@ const base = import.meta.env.BASE_URL;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{site.name} — Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --green: #4aeaab;
+        --green-dim: rgba(74, 234, 171, 0.12);
+        --amber: #f4c97a;
+        --amber-dim: rgba(244, 201, 122, 0.12);
+        --red: #f87171;
+        --red-dim: rgba(248, 113, 113, 0.12);
+        --bg: #080a10;
+        --surface: #0f1117;
+        --border: #1e2130;
+        --border-hover: #2a2d3a;
+        --text: #e8eaf0;
+        --text-secondary: #8b92a5;
+        --text-muted: #5a6075;
+        --text-subtle: #2a2d3a;
+        --radius: 12px;
+      }
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      body {
+        font-family: 'DM Sans', sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* Header bar */
+      .header-bar {
+        border-bottom: 1px solid var(--border);
+        padding: 18px 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-studio {
+        font-weight: 600;
+        font-size: 15px;
+        color: var(--text);
+      }
+
+      .header-label {
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--text-muted);
+      }
+
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .header-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--text-muted);
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+
+      .header-dot.live { background: #13b5ea; }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+
+      .header-time {
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+        color: var(--text-muted);
+        letter-spacing: 0.04em;
+      }
+
+      /* Container */
+      .container {
+        padding: 28px 32px;
+      }
+
+      @media (max-width: 600px) {
+        .container { padding: 20px 16px; }
+        .header-bar { padding: 14px 16px; }
+      }
+
+      /* Page heading */
+      .page-heading {
+        margin-bottom: 24px;
+      }
+
+      .page-heading h1 {
+        font-size: 28px;
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        margin-bottom: 4px;
+      }
+
+      .page-url {
+        font-family: 'DM Mono', monospace;
+        font-size: 12px;
+        color: var(--text-muted);
+        letter-spacing: 0.02em;
+      }
+
+      .page-url a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.15s;
+      }
+
+      .page-url a:hover { color: var(--text-secondary); }
+
+      /* Status banner */
+      .status-banner {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 20px;
+        border-radius: var(--radius);
+        margin-bottom: 24px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        transition: border-color 0.2s;
+      }
+
+      .status-banner:hover { border-color: var(--border-hover); }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        background: var(--text-muted);
+      }
+
+      .status-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-secondary);
+      }
+
+      .status-banner.operational .status-dot { background: var(--green); }
+      .status-banner.operational .status-text { color: var(--green); }
+      .status-banner.degraded .status-dot { background: var(--amber); }
+      .status-banner.degraded .status-text { color: var(--amber); }
+      .status-banner.down .status-dot { background: var(--red); }
+      .status-banner.down .status-text { color: var(--red); }
+
+      /* Section */
+      .section {
+        margin-bottom: 24px;
+      }
+
+      .section-title {
+        font-family: 'DM Mono', monospace;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-muted);
+        margin-bottom: 10px;
+      }
+
+      /* Health cards */
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+
+      @media (max-width: 600px) {
+        .cards { grid-template-columns: 1fr; }
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px;
+        transition: border-color 0.2s;
+      }
+
+      .card:hover { border-color: var(--border-hover); }
+
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+
+      .card-label {
+        font-family: 'DM Mono', monospace;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-muted);
+      }
+
+      .card-badge {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 100px;
+        background: rgba(139, 146, 165, 0.1);
+        color: var(--text-muted);
+      }
+
+      .card-badge.green {
+        background: var(--green-dim);
+        color: var(--green);
+      }
+
+      .card-badge.amber {
+        background: var(--amber-dim);
+        color: var(--amber);
+      }
+
+      .card-badge.red {
+        background: var(--red-dim);
+        color: var(--red);
+      }
+
+      .card-value {
+        font-size: 22px;
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .card-detail {
+        font-size: 12px;
+        color: var(--text-muted);
+      }
+
+      /* Platform status */
+      .platform-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+
+      @media (max-width: 600px) {
+        .platform-grid { grid-template-columns: 1fr; }
+      }
+
+      .platform-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px;
+        transition: border-color 0.2s;
+      }
+
+      .platform-card:hover { border-color: var(--border-hover); }
+
+      .platform-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+      }
+
+      .platform-name {
+        font-family: 'DM Mono', monospace;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-muted);
+      }
+
+      .platform-badge {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 100px;
+        background: rgba(139, 146, 165, 0.1);
+        color: var(--text-muted);
+      }
+
+      .platform-badge.operational {
+        background: var(--green-dim);
+        color: var(--green);
+      }
+
+      .platform-badge.degraded {
+        background: var(--amber-dim);
+        color: var(--amber);
+      }
+
+      .platform-badge.outage {
+        background: var(--red-dim);
+        color: var(--red);
+      }
+
+      .platform-components {
+        display: grid;
+        gap: 0;
+      }
+
+      /* Footer */
+      .footer {
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'DM Mono', monospace;
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-subtle);
+      }
+
+      @media (max-width: 600px) {
+        .footer {
+          flex-direction: column;
+          gap: 6px;
+          align-items: flex-start;
+        }
+      }
+
+      /* Loading skeleton */
+      .skeleton {
+        background: #1a1c26;
+        border-radius: 4px;
+        height: 1em;
+        display: inline-block;
+        animation: skeletonPulse 1.8s ease-in-out infinite;
+      }
+
+      @keyframes skeletonPulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      /* Dynamic content injected by JS — needs global scope */
+      .platform-components :global(.platform-component) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 12px;
+        color: #8b92a5;
+        padding: 10px 0;
+        border-bottom: 1px solid #1e2130;
+      }
+
+      .platform-components :global(.platform-component:last-child) { border-bottom: none; }
+
+      .platform-components :global(.component-status) {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-family: 'DM Mono', monospace;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #5a6075;
+        flex-shrink: 0;
+      }
+
+      .platform-components :global(.component-dot) {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #5a6075;
+        flex-shrink: 0;
+      }
+
+      .platform-components :global(.component-dot.operational) { background: #4aeaab; }
+      .platform-components :global(.component-dot.degraded) { background: #f4c97a; }
+      .platform-components :global(.component-dot.outage) { background: #f87171; }
+    </style>
   </head>
   <body>
-    <main style="max-width:900px;margin:40px auto;font-family:ui-sans-serif,system-ui;padding:0 16px;">
-      <a href={base} style="display:inline-block;margin-bottom:16px;">← All sites</a>
+    <!-- Header bar -->
+    <div class="header-bar">
+      <div class="header-left">
+        <span class="header-studio">OHMY</span>
+        <span class="header-label">Status</span>
+      </div>
+      <div class="header-right">
+        <span class="header-dot live" id="live-dot"></span>
+        <span class="header-time" id="header-time"></span>
+      </div>
+    </div>
 
-      <h1 style="margin:0 0 6px;">{site.name}</h1>
-      <p style="margin:0 0 18px;opacity:.75;">{site.url}</p>
-
-      <div style="border:1px solid #e5e7eb;border-radius:14px;padding:16px;">
-        <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;">
-          <strong id="overall">Loading…</strong>
-          <span id="updated" style="opacity:.75;"></span>
-        </div>
-
-        <hr style="border:none;border-top:1px solid #e5e7eb;margin:14px 0;" />
-
-        <div style="display:grid;gap:10px;">
-          <div>HTTP: <span id="http"></span></div>
-          <div>SSL: <span id="ssl"></span></div>
-          <div>Domain: <span id="domain"></span></div>
+    <div class="container">
+      <!-- Page heading -->
+      <div class="page-heading">
+        <h1>{site.name}</h1>
+        <div class="page-url">
+          <a href={site.url} target="_blank" rel="noopener">{site.url}</a>
         </div>
       </div>
-    </main>
 
-    <script define:vars={{ base, slug: site.slug }}>
-      async function load() {
-        const res = await fetch("https://raw.githubusercontent.com/weareohmy/status/main/public/status.json", { cache: "no-store" });
+      <!-- Overall status banner -->
+      <div id="status-banner" class="status-banner">
+        <span class="status-dot"></span>
+        <span class="status-text" id="status-text">Checking status&hellip;</span>
+      </div>
+
+      <!-- Site health -->
+      <div class="section">
+        <div class="section-title">Site Health</div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-label">Website</span>
+              <span class="card-badge" id="http-badge">&nbsp;</span>
+            </div>
+            <div class="card-value" id="http-value">
+              <span class="skeleton" style="width:60px;">&nbsp;</span>
+            </div>
+            <div class="card-detail" id="http-detail">&nbsp;</div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-label">SSL Certificate</span>
+              <span class="card-badge" id="ssl-badge">&nbsp;</span>
+            </div>
+            <div class="card-value" id="ssl-value">
+              <span class="skeleton" style="width:60px;">&nbsp;</span>
+            </div>
+            <div class="card-detail" id="ssl-detail">&nbsp;</div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-label">Domain</span>
+              <span class="card-badge" id="domain-badge">&nbsp;</span>
+            </div>
+            <div class="card-value" id="domain-value">
+              <span class="skeleton" style="width:60px;">&nbsp;</span>
+            </div>
+            <div class="card-detail" id="domain-detail">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Platform status -->
+      <div class="section">
+        <div class="section-title">Platform Status</div>
+        <div class="platform-grid">
+          <div class="platform-card">
+            <div class="platform-header">
+              <span class="platform-name">DatoCMS</span>
+              <span class="platform-badge" id="dato-badge">Loading</span>
+            </div>
+            <div class="platform-components" id="dato-components">
+              <div class="platform-component">
+                <span>Checking&hellip;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="platform-card">
+            <div class="platform-header">
+              <span class="platform-name">Netlify</span>
+              <span class="platform-badge" id="netlify-badge">Loading</span>
+            </div>
+            <div class="platform-components" id="netlify-components">
+              <div class="platform-component">
+                <span>Checking&hellip;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <span id="last-updated">Checking&hellip;</span>
+        <span>Monitored by OHMY</span>
+      </div>
+    </div>
+
+    <script define:vars={{ slug: site.slug, base, isDev: import.meta.env.DEV }}>
+      const STATUS_URL = isDev
+        ? `${base}/status.json`
+        : "https://raw.githubusercontent.com/weareohmy/status/main/public/status.json";
+      const SERVICES_URL = isDev
+        ? `${base}/services.json`
+        : "https://raw.githubusercontent.com/weareohmy/status/main/public/services.json";
+
+      /* Header time */
+      const now = new Date();
+      document.querySelector("#header-time").textContent =
+        now.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+      function statusColor(ok, daysLeft, type) {
+        if (!ok) return "red";
+        if (type === "ssl") {
+          if (daysLeft < 7) return "red";
+          if (daysLeft < 30) return "amber";
+          return "green";
+        }
+        if (type === "domain") {
+          if (daysLeft < 30) return "red";
+          if (daysLeft < 60) return "amber";
+          return "green";
+        }
+        return ok ? "green" : "red";
+      }
+
+      function serviceStatusClass(status) {
+        if (!status) return "";
+        const s = status.toLowerCase();
+        if (s === "operational" || s === "up") return "operational";
+        if (s.includes("degraded") || s.includes("partial")) return "degraded";
+        if (s.includes("outage") || s.includes("major") || s === "down") return "outage";
+        return "";
+      }
+
+      function serviceStatusLabel(status) {
+        if (!status) return "Unknown";
+        const s = status.toLowerCase();
+        if (s === "operational" || s === "up") return "Operational";
+        if (s.includes("degraded")) return "Degraded";
+        if (s.includes("partial")) return "Partial Outage";
+        if (s.includes("major") || s.includes("outage") || s === "down") return "Outage";
+        return status;
+      }
+
+      const NETLIFY_KEYS = [
+        "High-Performance Edge Network",
+        "Standard Edge Network",
+        "Origin Servers",
+        "Build Pipeline",
+        "Hosted DNS"
+      ];
+
+      const DATO_KEYS = [
+        "Content Delivery API",
+        "Content Management API",
+        "Assets CDN"
+      ];
+
+      async function loadStatus() {
+        const res = await fetch(STATUS_URL, { cache: "no-store" });
         const data = await res.json();
         const s = data.sites?.[slug];
 
         const updated = data.generatedAt ? new Date(data.generatedAt) : null;
-        document.querySelector("#updated").textContent =
-          updated ? `Updated: ${updated.toLocaleString()}` : "";
+        document.querySelector("#last-updated").textContent =
+          updated ? `Last checked ${updated.toLocaleString()}` : "";
 
         if (!s) {
-          document.querySelector("#overall").textContent = "No data for this site";
+          document.querySelector("#status-text").textContent = "No data available";
+          document.querySelector("#http-value").textContent = "\u2014";
+          document.querySelector("#ssl-value").textContent = "\u2014";
+          document.querySelector("#domain-value").textContent = "\u2014";
           return;
         }
 
-        document.querySelector("#overall").textContent = s.http?.ok ? "Operational" : "Down";
+        /* Overall banner */
+        const banner = document.querySelector("#status-banner");
+        const sslWarn = s.ssl?.ok && s.ssl.daysLeft < 30;
+        const domainWarn = s.domain?.ok && s.domain.daysLeft < 60;
 
-        document.querySelector("#http").textContent =
-          s.http?.ok ? `UP (${s.http.status} · ${s.http.ms}ms)` : `DOWN (${s.http?.error ?? "unknown"})`;
+        if (!s.http?.ok) {
+          banner.className = "status-banner down";
+          document.querySelector("#status-text").textContent = "Issues Detected";
+        } else if (sslWarn || domainWarn) {
+          banner.className = "status-banner degraded";
+          document.querySelector("#status-text").textContent = "Attention Required";
+        } else {
+          banner.className = "status-banner operational";
+          document.querySelector("#status-text").textContent = "All Systems Operational";
+        }
 
-        document.querySelector("#ssl").textContent =
-          s.ssl?.ok ? `Expires in ${s.ssl.daysLeft} days (${(s.ssl.expiresAt || "").slice(0,10)})`
-                   : `Unknown (${s.ssl?.error ?? "no data"})`;
+        /* Update live dot */
+        document.querySelector("#live-dot").className = "header-dot live";
 
-        document.querySelector("#domain").textContent =
-          s.domain?.ok ? `Expires in ${s.domain.daysLeft} days (${(s.domain.expiresAt || "").slice(0,10)})`
-                      : (s.domain?.error ? `Unknown (${s.domain.error})` : "Not configured");
+        /* HTTP card */
+        const httpColor = statusColor(s.http?.ok, null, "http");
+        const httpBadge = document.querySelector("#http-badge");
+        const httpValue = document.querySelector("#http-value");
+        const httpDetail = document.querySelector("#http-detail");
+        httpBadge.className = "card-badge " + httpColor;
+        if (s.http?.ok) {
+          httpBadge.textContent = "Up";
+          httpValue.textContent = `${s.http.status}`;
+          httpDetail.textContent = `${s.http.ms}ms response`;
+        } else {
+          httpBadge.textContent = "Down";
+          httpValue.textContent = "Offline";
+          httpDetail.textContent = s.http?.error ?? "Unreachable";
+        }
+
+        /* SSL card */
+        const sslColor = statusColor(s.ssl?.ok, s.ssl?.daysLeft, "ssl");
+        const sslBadge = document.querySelector("#ssl-badge");
+        const sslValue = document.querySelector("#ssl-value");
+        const sslDetail = document.querySelector("#ssl-detail");
+        sslBadge.className = "card-badge " + sslColor;
+        if (s.ssl?.ok) {
+          sslBadge.textContent = sslColor === "green" ? "Valid" : sslColor === "amber" ? "Expiring" : "Critical";
+          sslValue.textContent = `${s.ssl.daysLeft} days`;
+          sslDetail.textContent = `Expires ${(s.ssl.expiresAt || "").slice(0, 10)}`;
+        } else {
+          sslBadge.textContent = "Unknown";
+          sslValue.textContent = "\u2014";
+          sslDetail.textContent = s.ssl?.error ?? "No data";
+        }
+
+        /* Domain card */
+        const domainColor = statusColor(s.domain?.ok, s.domain?.daysLeft, "domain");
+        const domainBadge = document.querySelector("#domain-badge");
+        const domainValue = document.querySelector("#domain-value");
+        const domainDetail = document.querySelector("#domain-detail");
+        domainBadge.className = "card-badge " + domainColor;
+        if (s.domain?.ok) {
+          domainBadge.textContent = domainColor === "green" ? "Valid" : domainColor === "amber" ? "Expiring" : "Critical";
+          domainValue.textContent = `${s.domain.daysLeft} days`;
+          domainDetail.textContent = `Expires ${(s.domain.expiresAt || "").slice(0, 10)}`;
+        } else {
+          domainBadge.textContent = "Unknown";
+          domainValue.textContent = "\u2014";
+          domainDetail.textContent = s.domain?.error ?? "Not configured";
+        }
       }
 
-      load().catch(() => {
-        document.querySelector("#overall").textContent = "Could not load status.json";
+      async function loadServices() {
+        const res = await fetch(SERVICES_URL, { cache: "no-store" });
+        const data = await res.json();
+
+        /* DatoCMS */
+        const dato = data.providers?.datocms;
+        if (dato) {
+          const badge = document.querySelector("#dato-badge");
+          const cls = serviceStatusClass(dato.summary);
+          badge.className = "platform-badge " + cls;
+          badge.textContent = serviceStatusLabel(dato.summary);
+
+          const container = document.querySelector("#dato-components");
+          const filtered = (dato.components || []).filter(c => DATO_KEYS.includes(c.name));
+          container.innerHTML = filtered.map(c => {
+            const dotCls = serviceStatusClass(c.status);
+            const label = dotCls === "operational" ? "" : ` ${serviceStatusLabel(c.status)}`;
+            return `<div class="platform-component">
+              <span>${c.name}</span>
+              <span class="component-status">
+                <span class="component-dot ${dotCls}"></span>${label}
+              </span>
+            </div>`;
+          }).join("");
+        }
+
+        /* Netlify */
+        const netlify = data.providers?.netlify;
+        if (netlify) {
+          const badge = document.querySelector("#netlify-badge");
+          const cls = serviceStatusClass(netlify.summary);
+          badge.className = "platform-badge " + cls;
+          badge.textContent = serviceStatusLabel(netlify.summary);
+
+          const container = document.querySelector("#netlify-components");
+          const filtered = (netlify.components || []).filter(c => NETLIFY_KEYS.includes(c.name));
+          container.innerHTML = filtered.map(c => {
+            const dotCls = serviceStatusClass(c.status);
+            const label = dotCls === "operational" ? "" : ` ${serviceStatusLabel(c.status)}`;
+            return `<div class="platform-component">
+              <span>${c.name}</span>
+              <span class="component-status">
+                <span class="component-dot ${dotCls}"></span>${label}
+              </span>
+            </div>`;
+          }).join("");
+        }
+      }
+
+      Promise.all([loadStatus(), loadServices()]).catch(() => {
+        document.querySelector("#status-text").textContent = "Could not load status data";
       });
     </script>
   </body>

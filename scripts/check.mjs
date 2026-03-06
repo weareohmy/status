@@ -75,25 +75,26 @@ async function checkDomainRdap(domain) {
   }
 }
 
+async function checkSite(s) {
+  const [http, ssl, domain] = await Promise.all([
+    checkHttp(s.url),
+    checkCert(s.host),
+    s.domain ? checkDomainRdap(s.domain) : Promise.resolve(null)
+  ]);
+  return [s.slug, { meta: { name: s.name, url: s.url }, http, ssl, domain }];
+}
+
 async function main() {
   const out = { generatedAt: new Date().toISOString(), sites: {} };
 
-  for (const s of sites) {
-    const http = await checkHttp(s.url);
-    const ssl = await checkCert(s.host);
-    const domain = s.domain ? await checkDomainRdap(s.domain) : null;
-
-    out.sites[s.slug] = {
-      meta: { name: s.name, url: s.url },
-      http,
-      ssl,
-      domain
-    };
+  const results = await Promise.all(sites.map(checkSite));
+  for (const [slug, data] of results) {
+    out.sites[slug] = data;
   }
 
   await fs.mkdir("public", { recursive: true });
-  console.log("Writing status.json", JSON.stringify(out, null, 2));
   await fs.writeFile("public/status.json", JSON.stringify(out, null, 2));
+  console.log(`Checked ${results.length} site(s)`);
 }
 
 main().catch((e) => {

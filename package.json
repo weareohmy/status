@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "status": "node scripts/check.mjs"
+    "status": "node scripts/check.mjs",
+    "services": "node scripts/services.mjs"
   },
   "dependencies": {
     "astro": "^5.16.4"

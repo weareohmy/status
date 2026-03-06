@@ -5,5 +5,33 @@
     "url": "https://www.ohmy.studio",
     "host": "www.ohmy.studio",
     "domain": "ohmy.studio"
+  },
+  {
+    "slug": "noteworthy",
+    "name": "Noteworthy",
+    "url": "https://www.noteworthy.co.uk",
+    "host": "www.noteworthy.co.uk",
+    "domain": "noteworthy.co.uk"
+  },
+  {
+    "slug": "currentvehicles",
+    "name": "Current Vehicles",
+    "url": "https://www.currentvehicles.com",
+    "host": "www.currentvehicles.com",
+    "domain": "currentvehicles.com"
+  },
+  {
+    "slug": "rbbecon",
+    "name": "RBB Economics",
+    "url": "https://www.rbbecon.com",
+    "host": "www.rbbecon.com",
+    "domain": "rbbecon.com"
+  },
+  {
+    "slug": "sonder",
+    "name": "Sonder",
+    "url": "https://www.sonder-mr.com",
+    "host": "www.sonder-mr.com",
+    "domain": "sonder-mr.com"
   }
 ]

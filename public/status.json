@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T20:04:28.384Z",
+  "generatedAt": "2026-03-06T20:00:15.350Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 838,
+        "ms": 251,
         "error": null
       },
       "ssl": {
@@ -24,6 +24,106 @@
         "expiresAt": "2027-10-30T14:42:05.873Z",
         "daysLeft": 603,
         "source": "https://rdap.identitydigital.services/rdap/"
+      }
+    },
+    "noteworthy": {
+      "meta": {
+        "name": "Noteworthy",
+        "url": "https://www.noteworthy.co.uk"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 208,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 43,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-12-02T01:40:55.000Z",
+        "daysLeft": 636,
+        "source": "https://rdap.nominet.uk/uk/"
+      }
+    },
+    "currentvehicles": {
+      "meta": {
+        "name": "Current Vehicles",
+        "url": "https://www.currentvehicles.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 359,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 83,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-05-27T17:31:47.000Z",
+        "daysLeft": 447,
+        "source": "https://rdap.verisign.com/com/v1/"
+      }
+    },
+    "rbbecon": {
+      "meta": {
+        "name": "RBB Economics",
+        "url": "https://www.rbbecon.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 278,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-04-16T20:53:48.000Z",
+        "daysLeft": 42,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-02-15T10:23:04.000Z",
+        "daysLeft": 346,
+        "source": "https://rdap.verisign.com/com/v1/"
+      }
+    },
+    "sonder": {
+      "meta": {
+        "name": "Sonder",
+        "url": "https://www.sonder-mr.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 284,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-08T20:14:00.000Z",
+        "daysLeft": 64,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2026-06-25T11:03:18.000Z",
+        "daysLeft": 111,
+        "source": "https://rdap.verisign.com/com/v1/"
       }
     }
   }
