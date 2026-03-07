@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T05:48:15.999Z",
+  "generatedAt": "2026-03-07T06:01:49.075Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 388,
+        "ms": 517,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 349,
+        "ms": 717,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 550,
+        "ms": 883,
         "error": null
       },
       "ssl": {
@@ -82,10 +82,10 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 631,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
@@ -107,10 +107,10 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 710,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
