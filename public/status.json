@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T17:26:54.745Z",
+  "generatedAt": "2026-03-07T17:39:37.750Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 293,
+        "ms": 571,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 373,
+        "ms": 516,
         "error": null
       },
       "ssl": {
@@ -57,10 +57,10 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 4515,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -72,7 +72,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 447,
+        "daysLeft": 446,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     },
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 443,
+        "ms": 4583,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 506,
+        "ms": 4760,
         "error": null
       },
       "ssl": {
