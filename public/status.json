@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T15:24:33.622Z",
+  "generatedAt": "2026-03-07T15:37:19.077Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 135,
+        "ms": 633,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 128,
+        "ms": 596,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 246,
+        "ms": 831,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 296,
+        "ms": 801,
         "error": null
       },
       "ssl": {
@@ -107,17 +107,16 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 428,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-08T20:14:00.000Z",
-        "daysLeft": 63,
-        "issuer": "Let's Encrypt",
-        "subject": "www.sonder-mr.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
