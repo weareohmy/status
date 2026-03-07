@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T04:20:23.564Z",
+  "generatedAt": "2026-03-07T04:49:12.596Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 349,
+        "ms": 604,
         "error": null
       },
       "ssl": {
@@ -32,10 +32,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 769,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -59,14 +59,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 494,
+        "ms": 894,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 82,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -83,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 390,
+        "ms": 988,
         "error": null
       },
       "ssl": {
@@ -108,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 492,
+        "ms": 1105,
         "error": null
       },
       "ssl": {
