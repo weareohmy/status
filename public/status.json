@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T13:24:48.588Z",
+  "generatedAt": "2026-03-08T13:44:09.689Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 530,
+        "ms": 451,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 689,
+        "ms": 370,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 775,
+        "ms": 608,
         "error": null
       },
       "ssl": {
@@ -84,14 +84,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 967,
+        "ms": 659,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-16T20:53:48.000Z",
+        "daysLeft": 40,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
       },
       "domain": {
         "ok": true,
@@ -108,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1016,
+        "ms": 788,
         "error": null
       },
       "ssl": {
