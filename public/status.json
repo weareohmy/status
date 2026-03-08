@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:37:08.741Z",
+  "generatedAt": "2026-03-08T21:48:03.696Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 219,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 317,
+        "ms": 265,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 435,
+        "ms": 398,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 431,
+        "ms": 616,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 452,
+        "ms": 897,
         "error": null
       },
       "ssl": {
