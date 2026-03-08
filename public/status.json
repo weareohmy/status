@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:49:40.389Z",
+  "generatedAt": "2026-03-08T20:59:19.626Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -10,14 +10,13 @@
         "ok": false,
         "status": null,
         "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 62,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -32,10 +31,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 433,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
         "ok": true,
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 414,
+        "ms": 743,
         "error": null
       },
       "ssl": {
@@ -82,17 +81,16 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 562,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-16T20:53:48.000Z",
-        "daysLeft": 40,
-        "issuer": "Let's Encrypt",
-        "subject": "www.rbbecon.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -109,7 +107,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 518,
+        "ms": 999,
         "error": null
       },
       "ssl": {
