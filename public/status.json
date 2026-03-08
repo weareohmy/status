@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:37:40.591Z",
+  "generatedAt": "2026-03-08T20:49:40.389Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 338,
+        "ms": 433,
         "error": null
       },
       "ssl": {
@@ -57,10 +57,10 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 414,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 568,
+        "ms": 562,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 717,
+        "ms": 518,
         "error": null
       },
       "ssl": {
