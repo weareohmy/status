@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T14:39:29.767Z",
+  "generatedAt": "2026-03-08T14:51:35.276Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,22 +7,21 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 601,
+        "error": null
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 62,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
         "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 602,
+        "daysLeft": 601,
         "source": "https://rdap.identitydigital.services/rdap/"
       }
     },
@@ -34,7 +33,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 356,
+        "ms": 530,
         "error": null
       },
       "ssl": {
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 450,
+        "ms": 685,
         "error": null
       },
       "ssl": {
@@ -84,7 +83,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 568,
+        "ms": 838,
         "error": null
       },
       "ssl": {
@@ -109,7 +108,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 703,
+        "ms": 1180,
         "error": null
       },
       "ssl": {
