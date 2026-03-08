@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T13:02:46.902Z",
+  "generatedAt": "2026-03-08T13:24:48.588Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,13 +9,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 274,
+        "ms": 530,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 63,
+        "daysLeft": 62,
         "issuer": "Let's Encrypt",
         "subject": "www.ohmy.studio"
       },
@@ -34,13 +34,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 247,
+        "ms": 689,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 42,
+        "daysLeft": 41,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 229,
+        "ms": 775,
         "error": null
       },
       "ssl": {
@@ -84,15 +84,14 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 424,
+        "ms": 967,
         "error": null
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-16T20:53:48.000Z",
-        "daysLeft": 40,
-        "issuer": "Let's Encrypt",
-        "subject": "www.rbbecon.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -109,7 +108,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 521,
+        "ms": 1016,
         "error": null
       },
       "ssl": {
