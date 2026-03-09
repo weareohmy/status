@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T22:46:30.233Z",
+  "generatedAt": "2026-03-09T22:58:41.396Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 234,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 340,
+        "ms": 460,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 430,
+        "ms": 772,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 487,
+        "ms": 692,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 578,
+        "ms": 912,
         "error": null
       },
       "ssl": {
