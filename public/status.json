@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T11:55:03.061Z",
+  "generatedAt": "2026-03-09T12:12:36.585Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 384,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 62,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,14 +34,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 754,
+        "ms": 524,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 41,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -57,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 577,
+        "ms": 623,
         "error": null
       },
       "ssl": {
@@ -82,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 647,
+        "ms": 558,
         "error": null
       },
       "ssl": {
@@ -107,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 905,
+        "ms": 621,
         "error": null
       },
       "ssl": {
