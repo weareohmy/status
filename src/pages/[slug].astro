@@ -621,7 +621,7 @@ const base = import.meta.env.BASE_URL;
         httpBadge.className = "card-badge " + httpColor;
         if (s.http?.ok) {
           httpBadge.textContent = "Up";
-          httpValue.textContent = `${s.http.status}`;
+          httpValue.textContent = "Online";
           httpDetail.textContent = `${s.http.ms}ms response`;
         } else {
           httpBadge.textContent = "Down";
@@ -637,11 +637,11 @@ const base = import.meta.env.BASE_URL;
         sslBadge.className = "card-badge " + sslColor;
         if (s.ssl?.ok) {
           sslBadge.textContent = sslColor === "green" ? "Valid" : sslColor === "amber" ? "Expiring" : "Critical";
-          sslValue.textContent = `${s.ssl.daysLeft} days`;
+          sslValue.textContent = s.ssl.daysLeft > 0 ? `${s.ssl.daysLeft} days remaining` : "Expired";
           sslDetail.textContent = `Expires ${(s.ssl.expiresAt || "").slice(0, 10)}`;
         } else {
-          sslBadge.textContent = "Unknown";
-          sslValue.textContent = "\u2014";
+          sslBadge.textContent = "Expired";
+          sslValue.textContent = "Expired";
           sslDetail.textContent = s.ssl?.error ?? "No data";
         }
 
@@ -653,11 +653,11 @@ const base = import.meta.env.BASE_URL;
         domainBadge.className = "card-badge " + domainColor;
         if (s.domain?.ok) {
           domainBadge.textContent = domainColor === "green" ? "Valid" : domainColor === "amber" ? "Expiring" : "Critical";
-          domainValue.textContent = `${s.domain.daysLeft} days`;
+          domainValue.textContent = s.domain.daysLeft > 0 ? `${s.domain.daysLeft} days remaining` : "Expired";
           domainDetail.textContent = `Expires ${(s.domain.expiresAt || "").slice(0, 10)}`;
         } else {
-          domainBadge.textContent = "Unknown";
-          domainValue.textContent = "\u2014";
+          domainBadge.textContent = "Expired";
+          domainValue.textContent = "Expired";
           domainDetail.textContent = s.domain?.error ?? "Not configured";
         }
       }
