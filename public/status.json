@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T15:32:56.624Z",
+  "generatedAt": "2026-03-09T15:58:11.745Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 332,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 61,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,14 +34,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 364,
+        "ms": 235,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 40,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -57,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 424,
+        "ms": 795,
         "error": null
       },
       "ssl": {
@@ -82,14 +84,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 707,
+        "ms": 532,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-16T20:53:48.000Z",
+        "daysLeft": 39,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
       },
       "domain": {
         "ok": true,
@@ -106,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 2294,
+        "ms": 716,
         "error": null
       },
       "ssl": {
