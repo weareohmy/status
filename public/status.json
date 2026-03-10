@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T17:43:48.707Z",
+  "generatedAt": "2026-03-10T18:03:39.694Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 415,
+        "ms": 384,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 405,
+        "ms": 411,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 537,
+        "ms": 541,
         "error": null
       },
       "ssl": {
@@ -82,10 +82,10 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 477,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 635,
+        "ms": 524,
         "error": null
       },
       "ssl": {
