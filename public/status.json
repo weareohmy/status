@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T01:19:26.503Z",
+  "generatedAt": "2026-03-10T02:07:36.929Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,17 +7,16 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 165,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 61,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -34,7 +33,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 182,
+        "ms": 353,
         "error": null
       },
       "ssl": {
@@ -47,7 +46,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-12-02T01:40:55.000Z",
-        "daysLeft": 633,
+        "daysLeft": 632,
         "source": "https://rdap.nominet.uk/uk/"
       }
     },
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 418,
+        "ms": 385,
         "error": null
       },
       "ssl": {
@@ -84,7 +83,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 523,
+        "ms": 744,
         "error": null
       },
       "ssl": {
@@ -109,7 +108,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 4240,
+        "ms": 620,
         "error": null
       },
       "ssl": {
