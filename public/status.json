@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T19:47:00.730Z",
+  "generatedAt": "2026-03-10T20:00:52.463Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -13,11 +13,10 @@
         "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 60,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -32,10 +31,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 312,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 456,
+        "ms": 527,
         "error": null
       },
       "ssl": {
@@ -82,10 +81,10 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 707,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -109,7 +108,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 552,
+        "ms": 751,
         "error": null
       },
       "ssl": {
