@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T23:53:49.942Z",
+  "generatedAt": "2026-03-10T00:08:06.214Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 457,
+        "ms": 305,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 528,
+        "ms": 257,
         "error": null
       },
       "ssl": {
@@ -59,13 +59,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 699,
+        "ms": 444,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-28T00:03:50.000Z",
-        "daysLeft": 80,
+        "daysLeft": 79,
         "issuer": "Let's Encrypt",
         "subject": "www.currentvehicles.com"
       },
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 837,
+        "ms": 552,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1031,
+        "ms": 775,
         "error": null
       },
       "ssl": {
