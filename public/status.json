@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T12:47:18.924Z",
+  "generatedAt": "2026-03-10T13:18:25.218Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 394,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 61,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,13 +34,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 212,
+        "ms": 492,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 40,
+        "daysLeft": 39,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -62,10 +63,11 @@
         "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 79,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -82,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 279,
+        "ms": 489,
         "error": null
       },
       "ssl": {
@@ -107,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 443,
+        "ms": 629,
         "error": null
       },
       "ssl": {
