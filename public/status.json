@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T20:02:58.060Z",
+  "generatedAt": "2026-03-11T20:17:44.379Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 331,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 596,
+        "ms": 314,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 604,
+        "ms": 424,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 891,
+        "ms": 577,
         "error": null
       },
       "ssl": {
@@ -109,13 +109,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 868,
+        "ms": 749,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-08T20:14:00.000Z",
-        "daysLeft": 59,
+        "daysLeft": 58,
         "issuer": "Let's Encrypt",
         "subject": "www.sonder-mr.com"
       },
