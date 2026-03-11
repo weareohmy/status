@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T17:14:12.069Z",
+  "generatedAt": "2026-03-11T17:36:22.571Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 298,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 475,
+        "ms": 356,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 614,
+        "ms": 376,
         "error": null
       },
       "ssl": {
@@ -72,7 +72,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 443,
+        "daysLeft": 442,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     },
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1050,
+        "ms": 401,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 937,
+        "ms": 752,
         "error": null
       },
       "ssl": {
