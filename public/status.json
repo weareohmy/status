@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T10:22:24.896Z",
+  "generatedAt": "2026-03-11T10:41:49.014Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 380,
+        "ms": 312,
         "error": null
       },
       "ssl": {
@@ -32,17 +32,16 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 471,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 39,
-        "issuer": "Let's Encrypt",
-        "subject": "www.noteworthy.co.uk"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.noteworthy.co.uk. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
       },
       "domain": {
         "ok": true,
@@ -57,17 +56,16 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 716,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-28T00:03:50.000Z",
-        "daysLeft": 78,
-        "issuer": "Let's Encrypt",
-        "subject": "www.currentvehicles.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.currentvehicles.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
       },
       "domain": {
         "ok": true,
@@ -84,7 +82,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 739,
+        "ms": 394,
         "error": null
       },
       "ssl": {
@@ -97,7 +95,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 342,
+        "daysLeft": 341,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     },
@@ -107,17 +105,16 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 838,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-08T20:14:00.000Z",
-        "daysLeft": 59,
-        "issuer": "Let's Encrypt",
-        "subject": "www.sonder-mr.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.sonder-mr.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
       },
       "domain": {
         "ok": true,
