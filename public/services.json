@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-11T09:02:15.592Z",
+  "generatedAt": "2026-03-11T09:23:44.340Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-03-11T09:02:15.592Z",
+      "fetchedAt": "2026-03-11T09:23:44.340Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-03-11T09:02:15.592Z",
+      "fetchedAt": "2026-03-11T09:23:44.340Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "degraded",
+      "summary": "operational",
       "page": null,
       "components": [
         {
@@ -68,17 +68,17 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "y7hq47ts327k",
           "name": "Netlify Application UI",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "42cdn8lcw3pr",
           "name": "API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "zvf0k2ht9164",
