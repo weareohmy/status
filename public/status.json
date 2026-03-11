@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T11:02:17.319Z",
+  "generatedAt": "2026-03-11T11:20:14.007Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -13,10 +13,11 @@
         "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 60,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 668,
+        "ms": 93,
         "error": null
       },
       "ssl": {
@@ -58,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 668,
+        "ms": 378,
         "error": null
       },
       "ssl": {
@@ -83,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 806,
+        "ms": 320,
         "error": null
       },
       "ssl": {
@@ -108,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 811,
+        "ms": 374,
         "error": null
       },
       "ssl": {
@@ -121,7 +122,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2026-06-25T11:03:18.000Z",
-        "daysLeft": 107,
+        "daysLeft": 106,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     }
