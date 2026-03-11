@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T15:22:39.861Z",
+  "generatedAt": "2026-03-11T15:43:41.666Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 393,
+        "ms": 565,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 246,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 388,
+        "ms": 395,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 435,
+        "ms": 657,
         "error": null
       },
       "ssl": {
@@ -107,10 +107,10 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 671,
+        "error": null
       },
       "ssl": {
         "ok": true,
