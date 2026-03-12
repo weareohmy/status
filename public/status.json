@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T06:03:18.108Z",
+  "generatedAt": "2026-03-12T06:28:49.546Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 337,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -32,10 +32,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 496,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 389,
+        "ms": 302,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 408,
+        "ms": 423,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 518,
+        "ms": 532,
         "error": null
       },
       "ssl": {
