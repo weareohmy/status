@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T11:01:30.713Z",
+  "generatedAt": "2026-03-12T11:19:45.650Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 298,
+        "ms": 310,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 424,
+        "ms": 376,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 320,
+        "ms": 468,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 541,
+        "ms": 503,
         "error": null
       },
       "ssl": {
@@ -122,7 +122,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2026-06-25T11:03:18.000Z",
-        "daysLeft": 106,
+        "daysLeft": 105,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     }
