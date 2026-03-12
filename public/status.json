@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T01:23:06.636Z",
+  "generatedAt": "2026-03-12T02:13:02.714Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 396,
+        "ms": 765,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 314,
+        "ms": 957,
         "error": null
       },
       "ssl": {
@@ -47,7 +47,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-12-02T01:40:55.000Z",
-        "daysLeft": 631,
+        "daysLeft": 630,
         "source": "https://rdap.nominet.uk/uk/"
       }
     },
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 488,
+        "ms": 865,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 574,
+        "ms": 932,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 858,
+        "ms": 1021,
         "error": null
       },
       "ssl": {
