@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T17:36:56.793Z",
+  "generatedAt": "2026-03-13T17:53:32.935Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 322,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -34,15 +34,14 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 446,
+        "ms": 235,
         "error": null
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 36,
-        "issuer": "Let's Encrypt",
-        "subject": "www.noteworthy.co.uk"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 675,
+        "ms": 677,
         "error": null
       },
       "ssl": {
@@ -84,7 +83,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 525,
+        "ms": 368,
         "error": null
       },
       "ssl": {
@@ -109,7 +108,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 868,
+        "ms": 466,
         "error": null
       },
       "ssl": {
