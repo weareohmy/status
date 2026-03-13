@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T16:40:13.574Z",
+  "generatedAt": "2026-03-13T16:59:47.292Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 474,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
         "ok": true,
@@ -32,17 +32,16 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 607,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 36,
-        "issuer": "Let's Encrypt",
-        "subject": "www.noteworthy.co.uk"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "AggregateError"
       },
       "domain": {
         "ok": true,
@@ -59,7 +58,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 2134,
+        "ms": 670,
         "error": null
       },
       "ssl": {
@@ -84,7 +83,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 846,
+        "ms": 698,
         "error": null
       },
       "ssl": {
@@ -107,10 +106,10 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 970,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
