@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T22:44:12.635Z",
+  "generatedAt": "2026-03-14T22:56:16.421Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 484,
+        "ms": 193,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 557,
+        "ms": 333,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 740,
+        "ms": 520,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 918,
+        "ms": 681,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1081,
+        "ms": 929,
         "error": null
       },
       "ssl": {
