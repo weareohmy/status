@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T15:30:02.032Z",
+  "generatedAt": "2026-03-14T15:44:36.652Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 281,
+        "ms": 451,
         "error": null
       },
       "ssl": {
@@ -32,10 +32,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 625,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 429,
+        "ms": 808,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 528,
+        "ms": 831,
         "error": null
       },
       "ssl": {
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 760,
+        "ms": 991,
         "error": null
       },
       "ssl": {
