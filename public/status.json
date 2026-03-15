@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T19:40:27.664Z",
+  "generatedAt": "2026-03-15T19:51:56.475Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 252,
+        "ms": 255,
         "error": null
       },
       "ssl": {
@@ -34,14 +34,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 263,
+        "ms": 258,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 34,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -58,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 388,
+        "ms": 370,
         "error": null
       },
       "ssl": {
@@ -83,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 532,
+        "ms": 403,
         "error": null
       },
       "ssl": {
@@ -108,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 654,
+        "ms": 562,
         "error": null
       },
       "ssl": {
