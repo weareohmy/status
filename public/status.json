@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T17:29:28.335Z",
+  "generatedAt": "2026-03-15T17:44:47.919Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 404,
+        "ms": 532,
         "error": null
       },
       "ssl": {
@@ -34,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 701,
+        "ms": 504,
         "error": null
       },
       "ssl": {
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 492,
+        "ms": 793,
         "error": null
       },
       "ssl": {
@@ -72,7 +72,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 439,
+        "daysLeft": 438,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     },
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 638,
+        "ms": 643,
         "error": null
       },
       "ssl": {
@@ -107,10 +107,10 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 765,
+        "error": null
       },
       "ssl": {
         "ok": true,
