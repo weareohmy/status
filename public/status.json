@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T15:17:48.438Z",
+  "generatedAt": "2026-03-15T15:34:42.031Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,14 +9,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 423,
+        "ms": 267,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 55,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -33,7 +34,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 447,
+        "ms": 426,
         "error": null
       },
       "ssl": {
@@ -58,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 528,
+        "ms": 672,
         "error": null
       },
       "ssl": {
@@ -83,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 682,
+        "ms": 839,
         "error": null
       },
       "ssl": {
@@ -108,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1102,
+        "ms": 948,
         "error": null
       },
       "ssl": {
