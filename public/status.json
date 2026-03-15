@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T10:14:09.031Z",
+  "generatedAt": "2026-03-15T10:30:19.160Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 420,
+        "ms": 205,
         "error": null
       },
       "ssl": {
@@ -32,10 +32,10 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 269,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -59,7 +59,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 552,
+        "ms": 444,
         "error": null
       },
       "ssl": {
@@ -84,7 +84,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 551,
+        "ms": 577,
         "error": null
       },
       "ssl": {
@@ -97,7 +97,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 338,
+        "daysLeft": 337,
         "source": "https://rdap.verisign.com/com/v1/"
       }
     },
@@ -109,7 +109,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 865,
+        "ms": 718,
         "error": null
       },
       "ssl": {
