@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-03-16T15:16:44.564Z",
+  "sites": {
+    "ohmy": {
+      "meta": {
+        "name": "OHMY",
+        "url": "https://www.ohmy.studio"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 376,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 54,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-10-30T14:42:05.873Z",
+        "daysLeft": 593,
+        "source": "https://rdap.identitydigital.services/rdap/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "ohmy-website-v4.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "104.198.14.52"
+        ],
+        "cnameValid": true,
+        "rootValid": false,
+        "error": null
+      }
+    },
+    "noteworthy": {
+      "meta": {
+        "name": "Noteworthy",
+        "url": "https://www.noteworthy.co.uk"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 4674,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 33,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-12-02T01:40:55.000Z",
+        "daysLeft": 626,
+        "source": "https://rdap.nominet.uk/uk/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "noteworthy-website.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    },
+    "currentvehicles": {
+      "meta": {
+        "name": "Current Vehicles",
+        "url": "https://www.currentvehicles.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 432,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 73,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-05-27T17:31:47.000Z",
+        "daysLeft": 438,
+        "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "current-website-production.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    },
+    "rbbecon": {
+      "meta": {
+        "name": "RBB Economics",
+        "url": "https://www.rbbecon.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 245,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-04-16T20:53:48.000Z",
+        "daysLeft": 32,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-02-15T10:23:04.000Z",
+        "daysLeft": 336,
+        "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "rbb-website.netlify.app",
+        "a": [
+          "98.84.224.111",
+          "18.208.88.157"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    },
+    "sonder": {
+      "meta": {
+        "name": "Sonder",
+        "url": "https://www.sonder-mr.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 1611,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-08T20:14:00.000Z",
+        "daysLeft": 54,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2026-06-25T11:03:18.000Z",
+        "daysLeft": 101,
+        "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "sonder-website-production.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "75.2.60.5",
+          "99.83.231.61"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    },
+    "auriens": {
+      "meta": {
+        "name": "Auriens",
+        "url": "https://www.auriens.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 1433,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-30T06:23:49.000Z",
+        "daysLeft": 75,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-02-28T11:13:20.000Z",
+        "daysLeft": 349,
+        "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "auriens-website-production.netlify.app",
+        "a": [
+          "98.84.224.111",
+          "18.208.88.157"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    }
+  }
+}
