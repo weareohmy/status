@@ -157,6 +157,18 @@ const base = import.meta.env.BASE_URL;
 
       .status-banner:hover { border-color: var(--border-hover); }
 
+      .status-content {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .status-updated {
+        font-family: 'DM Mono', monospace;
+        font-size: 11px;
+        color: var(--text-muted);
+      }
+
       .status-dot {
         width: 8px;
         height: 8px;
@@ -196,7 +208,7 @@ const base = import.meta.env.BASE_URL;
       /* Health cards */
       .cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 14px;
       }
 
@@ -210,6 +222,8 @@ const base = import.meta.env.BASE_URL;
         border-radius: var(--radius);
         padding: 20px;
         transition: border-color 0.2s;
+        min-width: 0;
+        overflow-wrap: break-word;
       }
 
       .card:hover { border-color: var(--border-hover); }
@@ -410,6 +424,18 @@ const base = import.meta.env.BASE_URL;
       .platform-components :global(.component-dot.operational) { background: #4aeaab; }
       .platform-components :global(.component-dot.degraded) { background: #f4c97a; }
       .platform-components :global(.component-dot.outage) { background: #f87171; }
+
+      /* Uptime bar */
+      .uptime-segment {
+        flex: 1;
+        border-radius: 2px;
+        min-width: 2px;
+        transition: opacity 0.15s;
+      }
+      .uptime-segment:hover { opacity: 0.7; }
+      .uptime-segment.up { background: var(--green); }
+      .uptime-segment.down { background: var(--red); }
+      .uptime-segment.no-data { background: var(--border); }
     </style>
   </head>
   <body>
@@ -437,7 +463,10 @@ const base = import.meta.env.BASE_URL;
       <!-- Overall status banner -->
       <div id="status-banner" class="status-banner">
         <span class="status-dot"></span>
-        <span class="status-text" id="status-text">Checking status&hellip;</span>
+        <div class="status-content">
+          <span class="status-text" id="status-text">Checking status&hellip;</span>
+          <span class="status-updated" id="status-updated">Checking&hellip;</span>
+        </div>
       </div>
 
       <!-- Site health -->
@@ -476,6 +505,35 @@ const base = import.meta.env.BASE_URL;
             </div>
             <div class="card-detail" id="domain-detail">&nbsp;</div>
           </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-label">DNS</span>
+              <span class="card-badge" id="dns-badge">&nbsp;</span>
+            </div>
+            <div class="card-value" id="dns-value">
+              <span class="skeleton" style="width:60px;">&nbsp;</span>
+            </div>
+            <div class="card-detail" id="dns-detail">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Uptime history -->
+      <div class="section">
+        <div class="section-title">Uptime — Last 7 Days</div>
+        <div class="card" style="padding: 24px;">
+          <div class="card-header">
+            <span class="card-label" id="uptime-pct">Loading&hellip;</span>
+            <span class="card-badge" id="uptime-badge">&nbsp;</span>
+          </div>
+          <div id="uptime-bar" style="display:flex; gap:2px; height:32px; margin-top:8px;">
+            <span class="skeleton" style="width:100%; height:32px;">&nbsp;</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top:6px;">
+            <span class="card-detail" id="uptime-start"></span>
+            <span class="card-detail" id="uptime-end"></span>
+          </div>
         </div>
       </div>
 
@@ -511,7 +569,6 @@ const base = import.meta.env.BASE_URL;
 
       <!-- Footer -->
       <div class="footer">
-        <span id="last-updated">Checking&hellip;</span>
         <span>Monitored by OHMY</span>
       </div>
     </div>
@@ -523,6 +580,9 @@ const base = import.meta.env.BASE_URL;
       const SERVICES_URL = isDev
         ? `${base}/services.json`
         : "https://raw.githubusercontent.com/weareohmy/status/main/public/services.json";
+      const HISTORY_URL = isDev
+        ? `${base}/history.json`
+        : "https://raw.githubusercontent.com/weareohmy/status/main/public/history.json";
 
       /* Header time */
       const now = new Date();
@@ -583,7 +643,7 @@ const base = import.meta.env.BASE_URL;
         const s = data.sites?.[slug];
 
         const updated = data.generatedAt ? new Date(data.generatedAt) : null;
-        document.querySelector("#last-updated").textContent =
+        document.querySelector("#status-updated").textContent =
           updated ? `Last checked ${updated.toLocaleString()}` : "";
 
         if (!s) {
@@ -591,6 +651,7 @@ const base = import.meta.env.BASE_URL;
           document.querySelector("#http-value").textContent = "\u2014";
           document.querySelector("#ssl-value").textContent = "\u2014";
           document.querySelector("#domain-value").textContent = "\u2014";
+          document.querySelector("#dns-value").textContent = "\u2014";
           return;
         }
 
@@ -599,10 +660,13 @@ const base = import.meta.env.BASE_URL;
         const sslWarn = s.ssl?.ok && s.ssl.daysLeft < 30;
         const domainWarn = s.domain?.ok && s.domain.daysLeft < 60;
 
-        if (!s.http?.ok) {
+        const dnsDown = !s.dns?.ok;
+        const dnsWarn = s.dns?.ok && (s.dns.cnameValid === false || s.dns.rootValid === false);
+
+        if (!s.http?.ok || dnsDown) {
           banner.className = "status-banner down";
           document.querySelector("#status-text").textContent = "Issues Detected";
-        } else if (sslWarn || domainWarn) {
+        } else if (sslWarn || domainWarn || dnsWarn) {
           banner.className = "status-banner degraded";
           document.querySelector("#status-text").textContent = "Attention Required";
         } else {
@@ -660,6 +724,32 @@ const base = import.meta.env.BASE_URL;
           domainValue.textContent = "Expired";
           domainDetail.textContent = s.domain?.error ?? "Not configured";
         }
+
+        /* DNS card */
+        const dnsBadge = document.querySelector("#dns-badge");
+        const dnsValue = document.querySelector("#dns-value");
+        const dnsDetail = document.querySelector("#dns-detail");
+        if (s.dns?.ok) {
+          const allValid = s.dns.cnameValid !== false && s.dns.rootValid !== false;
+          const anyWarning = s.dns.cnameValid === false || s.dns.rootValid === false;
+          dnsBadge.className = "card-badge " + (anyWarning ? "amber" : "green");
+          dnsBadge.textContent = anyWarning ? "Warning" : "OK";
+          dnsValue.textContent = anyWarning ? "Misconfigured" : "Pointing to Netlify";
+          const parts = [];
+          if (s.dns.cname) {
+            const short = s.dns.cname.replace(/\.netlify\.app$/, '').replace(/\.netlify\.com$/, '');
+            parts.push(`www → ${short}` + (s.dns.cnameValid ? '' : ' ✗'));
+          }
+          if (s.dns.rootA?.length) {
+            parts.push(`root → ${s.dns.rootA[0]}` + (s.dns.rootValid ? '' : ' ✗'));
+          }
+          dnsDetail.textContent = parts.join(" · ") || "Pointing to Netlify";
+        } else {
+          dnsBadge.className = "card-badge red";
+          dnsBadge.textContent = "Fail";
+          dnsValue.textContent = "Not resolving";
+          dnsDetail.textContent = "Domain not pointing correctly";
+        }
       }
 
       async function loadServices() {
@@ -711,7 +801,58 @@ const base = import.meta.env.BASE_URL;
         }
       }
 
-      Promise.all([loadStatus(), loadServices()]).catch(() => {
+      async function loadHistory() {
+        try {
+          const res = await fetch(HISTORY_URL, { cache: "no-store" });
+          if (!res.ok) throw new Error("not found");
+          const data = await res.json();
+          const entries = data.sites?.[slug] || [];
+
+          if (entries.length === 0) {
+            document.querySelector("#uptime-pct").textContent = "No history yet";
+            document.querySelector("#uptime-bar").innerHTML = "";
+            return;
+          }
+
+          const total = entries.length;
+          const okCount = entries.filter(e => e.ok).length;
+          const pct = (okCount / total * 100).toFixed(1);
+
+          document.querySelector("#uptime-pct").textContent = `${pct}% uptime`;
+          const badge = document.querySelector("#uptime-badge");
+          if (pct >= 99.5) { badge.className = "card-badge green"; badge.textContent = "Healthy"; }
+          else if (pct >= 95) { badge.className = "card-badge amber"; badge.textContent = "Degraded"; }
+          else { badge.className = "card-badge red"; badge.textContent = "Poor"; }
+
+          const SEGMENTS = 84;
+          const nowMs = Date.now();
+          const sevenDays = 7 * 24 * 60 * 60 * 1000;
+          const start = nowMs - sevenDays;
+          const bucketSize = sevenDays / SEGMENTS;
+
+          const buckets = Array.from({ length: SEGMENTS }, () => ({ total: 0, ok: 0 }));
+          for (const e of entries) {
+            const t = new Date(e.t).getTime();
+            const idx = Math.min(Math.floor((t - start) / bucketSize), SEGMENTS - 1);
+            if (idx >= 0) { buckets[idx].total++; if (e.ok) buckets[idx].ok++; }
+          }
+
+          const bar = document.querySelector("#uptime-bar");
+          bar.innerHTML = buckets.map(b => {
+            const cls = b.total === 0 ? "no-data" : (b.ok === b.total ? "up" : "down");
+            return `<div class="uptime-segment ${cls}" title="${b.ok}/${b.total} checks OK"></div>`;
+          }).join("");
+
+          document.querySelector("#uptime-start").textContent =
+            new Date(start).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+          document.querySelector("#uptime-end").textContent = "Now";
+        } catch {
+          document.querySelector("#uptime-pct").textContent = "No history yet";
+          document.querySelector("#uptime-bar").innerHTML = "";
+        }
+      }
+
+      Promise.all([loadStatus(), loadServices(), loadHistory()]).catch(() => {
         document.querySelector("#status-text").textContent = "Could not load status data";
       });
     </script>

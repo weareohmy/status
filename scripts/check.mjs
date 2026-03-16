@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import dns from "node:dns/promises";
 import tls from "node:tls";
 import sites from "../config/sites.json" with { type: 'json' };
 
@@ -75,13 +76,50 @@ async function checkDomainRdap(domain) {
   }
 }
 
+const NETLIFY_LB = "75.2.60.5";
+
+async function checkDns(hostname, timeoutMs = 10000) {
+  try {
+    const result = await Promise.race([
+      (async () => {
+        let cname = null;
+        try { cname = (await dns.resolveCname(hostname))[0] ?? null; } catch {}
+        const ipv4 = await dns.resolve4(hostname);
+
+        /* Also resolve root/apex A record when host is www */
+        let rootA = null;
+        if (hostname.startsWith("www.")) {
+          const apex = hostname.slice(4);
+          try { rootA = await dns.resolve4(apex); } catch {}
+        }
+
+        /* Validate Netlify configuration */
+        const cnameValid = cname ? /\.netlify\.(app|com)$/.test(cname) : false;
+        const rootValid = rootA ? rootA.includes(NETLIFY_LB) : null;
+
+        return { cname, a: ipv4, rootA, cnameValid, rootValid };
+      })(),
+      new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), timeoutMs))
+    ]);
+    return {
+      ok: true,
+      cname: result.cname, a: result.a, rootA: result.rootA,
+      cnameValid: result.cnameValid, rootValid: result.rootValid,
+      error: null
+    };
+  } catch (e) {
+    return { ok: false, cname: null, a: [], rootA: null, cnameValid: false, rootValid: null, error: String(e) };
+  }
+}
+
 async function checkSite(s) {
-  const [http, ssl, domain] = await Promise.all([
+  const [http, ssl, domain, dnsResult] = await Promise.all([
     checkHttp(s.url),
     checkCert(s.host),
-    s.domain ? checkDomainRdap(s.domain) : Promise.resolve(null)
+    s.domain ? checkDomainRdap(s.domain) : Promise.resolve(null),
+    checkDns(s.host)
   ]);
-  return [s.slug, { meta: { name: s.name, url: s.url }, http, ssl, domain }];
+  return [s.slug, { meta: { name: s.name, url: s.url }, http, ssl, domain, dns: dnsResult }];
 }
 
 async function main() {
@@ -94,6 +132,29 @@ async function main() {
 
   await fs.mkdir("public", { recursive: true });
   await fs.writeFile("public/status.json", JSON.stringify(out, null, 2));
+
+  /* Uptime history — 7-day rolling window */
+  let history;
+  try {
+    history = JSON.parse(await fs.readFile("public/history.json", "utf-8"));
+  } catch {
+    history = { sites: {} };
+  }
+
+  const now = new Date().toISOString();
+  for (const [slug, data] of results) {
+    if (!history.sites[slug]) history.sites[slug] = [];
+    history.sites[slug].push({ t: now, ok: data.http.ok });
+  }
+
+  const cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  for (const slug of Object.keys(history.sites)) {
+    history.sites[slug] = history.sites[slug].filter(
+      (e) => new Date(e.t).getTime() >= cutoff
+    );
+  }
+
+  await fs.writeFile("public/history.json", JSON.stringify(history));
   console.log(`Checked ${results.length} site(s)`);
 }
 

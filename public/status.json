@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T09:36:29.167Z",
+  "generatedAt": "2026-03-16T09:55:38.491Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 330,
+        "ms": 186,
         "error": null
       },
       "ssl": {
@@ -24,6 +24,20 @@
         "expiresAt": "2027-10-30T14:42:05.873Z",
         "daysLeft": 594,
         "source": "https://rdap.identitydigital.services/rdap/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "ohmy-website-v4.netlify.app",
+        "a": [
+          "63.176.8.218",
+          "35.157.26.135"
+        ],
+        "rootA": [
+          "104.198.14.52"
+        ],
+        "cnameValid": true,
+        "rootValid": false,
+        "error": null
       }
     },
     "noteworthy": {
@@ -34,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 391,
+        "ms": 287,
         "error": null
       },
       "ssl": {
@@ -49,6 +63,20 @@
         "expiresAt": "2027-12-02T01:40:55.000Z",
         "daysLeft": 626,
         "source": "https://rdap.nominet.uk/uk/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "noteworthy-website.netlify.app",
+        "a": [
+          "35.157.26.135",
+          "63.176.8.218"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "currentvehicles": {
@@ -59,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 520,
+        "ms": 297,
         "error": null
       },
       "ssl": {
@@ -74,6 +102,20 @@
         "expiresAt": "2027-05-27T17:31:47.000Z",
         "daysLeft": 438,
         "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "current-website-production.netlify.app",
+        "a": [
+          "35.157.26.135",
+          "63.176.8.218"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "rbbecon": {
@@ -84,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 559,
+        "ms": 318,
         "error": null
       },
       "ssl": {
@@ -99,6 +141,20 @@
         "expiresAt": "2027-02-15T10:23:04.000Z",
         "daysLeft": 337,
         "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "rbb-website.netlify.app",
+        "a": [
+          "35.157.26.135",
+          "63.176.8.218"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "sonder": {
@@ -109,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 738,
+        "ms": 324,
         "error": null
       },
       "ssl": {
@@ -124,6 +180,60 @@
         "expiresAt": "2026-06-25T11:03:18.000Z",
         "daysLeft": 102,
         "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "sonder-website-production.netlify.app",
+        "a": [
+          "63.176.8.218",
+          "35.157.26.135"
+        ],
+        "rootA": [
+          "75.2.60.5",
+          "99.83.231.61"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
+      }
+    },
+    "auriens": {
+      "meta": {
+        "name": "Auriens",
+        "url": "https://www.auriens.com"
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "ms": 335,
+        "error": null
+      },
+      "ssl": {
+        "ok": true,
+        "expiresAt": "2026-05-30T06:23:49.000Z",
+        "daysLeft": 75,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
+      },
+      "domain": {
+        "ok": true,
+        "expiresAt": "2027-02-28T11:13:20.000Z",
+        "daysLeft": 350,
+        "source": "https://rdap.verisign.com/com/v1/"
+      },
+      "dns": {
+        "ok": true,
+        "cname": "auriens-website-production.netlify.app",
+        "a": [
+          "63.176.8.218",
+          "35.157.26.135"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     }
   }

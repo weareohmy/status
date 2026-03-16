@@ -33,5 +33,12 @@
     "url": "https://www.sonder-mr.com",
     "host": "www.sonder-mr.com",
     "domain": "sonder-mr.com"
+  },
+  {
+    "slug": "auriens",
+    "name": "Auriens",
+    "url": "https://www.auriens.com",
+    "host": "www.auriens.com",
+    "domain": "auriens.com"
   }
 ]
