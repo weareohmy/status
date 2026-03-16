@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T11:45:38.264Z",
+  "generatedAt": "2026-03-16T12:02:54.740Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -10,7 +10,7 @@
         "ok": false,
         "status": null,
         "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
         "ok": false,
@@ -28,8 +28,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,13 +48,14 @@
         "ok": false,
         "status": null,
         "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 34,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -66,8 +67,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -85,14 +86,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 572,
+        "ms": 602,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 73,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -121,17 +123,16 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 365,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-04-16T20:53:48.000Z",
-        "daysLeft": 32,
-        "issuer": "Let's Encrypt",
-        "subject": "www.rbbecon.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -162,7 +163,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 539,
+        "ms": 547,
         "error": null
       },
       "ssl": {
@@ -182,8 +183,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5",
@@ -200,10 +201,10 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 440,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
         "ok": true,
