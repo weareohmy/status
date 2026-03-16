@@ -17,6 +17,10 @@ pnpm-debug.log*
 .env
 .env.production
 
+# generated status data (written by CI bot)
+public/status.json
+public/history.json
+
 # macOS-specific files
 .DS_Store
 
