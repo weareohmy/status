@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T09:55:38.491Z",
+  "generatedAt": "2026-03-16T10:03:51.049Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,17 +7,16 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 186,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "AbortError: This operation was aborted"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-09T13:24:00.000Z",
-        "daysLeft": 55,
-        "issuer": "Let's Encrypt",
-        "subject": "www.ohmy.studio"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -29,8 +28,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "63.176.8.218",
-          "35.157.26.135"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +47,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 287,
+        "ms": 319,
         "error": null
       },
       "ssl": {
@@ -68,8 +67,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "35.157.26.135",
-          "63.176.8.218"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -85,17 +84,16 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 297,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-28T00:03:50.000Z",
-        "daysLeft": 73,
-        "issuer": "Let's Encrypt",
-        "subject": "www.currentvehicles.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error: read ECONNRESET"
       },
       "domain": {
         "ok": true,
@@ -107,8 +105,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "35.157.26.135",
-          "63.176.8.218"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +124,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 318,
+        "ms": 305,
         "error": null
       },
       "ssl": {
@@ -146,8 +144,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "35.157.26.135",
-          "63.176.8.218"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,15 +163,14 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 324,
+        "ms": 562,
         "error": null
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-05-08T20:14:00.000Z",
-        "daysLeft": 54,
-        "issuer": "Let's Encrypt",
-        "subject": "www.sonder-mr.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error: read ECONNRESET"
       },
       "domain": {
         "ok": true,
@@ -185,8 +182,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "63.176.8.218",
-          "35.157.26.135"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5",
@@ -205,7 +202,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 335,
+        "ms": 247,
         "error": null
       },
       "ssl": {
@@ -225,8 +222,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "63.176.8.218",
-          "35.157.26.135"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
