@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T14:41:38.628Z",
+  "generatedAt": "2026-03-16T14:56:20.075Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,29 +7,30 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 105,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-09T13:24:00.000Z",
+        "daysLeft": 54,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
         "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 594,
+        "daysLeft": 593,
         "source": "https://rdap.identitydigital.services/rdap/"
       },
       "dns": {
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "63.176.8.218",
+          "35.157.26.135"
         ],
         "rootA": [
           "104.198.14.52"
@@ -45,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "AbortError: This operation was aborted"
+        "ok": true,
+        "status": 200,
+        "ms": 127,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-04-18T13:03:48.000Z",
+        "daysLeft": 33,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -66,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "35.157.26.135",
+          "63.176.8.218"
         ],
         "rootA": [
           "75.2.60.5"
@@ -85,14 +87,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 2571,
+        "ms": 142,
         "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-05-28T00:03:50.000Z",
+        "daysLeft": 73,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -104,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "63.176.8.218",
+          "35.157.26.135"
         ],
         "rootA": [
           "75.2.60.5"
@@ -123,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 331,
+        "ms": 117,
         "error": null
       },
       "ssl": {
@@ -143,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "63.176.8.218",
+          "35.157.26.135"
         ],
         "rootA": [
           "75.2.60.5"
@@ -162,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 662,
+        "ms": 131,
         "error": null
       },
       "ssl": {
@@ -182,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "63.176.8.218",
+          "35.157.26.135"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -202,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 531,
+        "ms": 137,
         "error": null
       },
       "ssl": {
@@ -222,8 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "35.157.26.135",
+          "63.176.8.218"
         ],
         "rootA": [
           "75.2.60.5"
