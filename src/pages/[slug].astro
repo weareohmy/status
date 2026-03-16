@@ -863,8 +863,21 @@ const base = import.meta.env.BASE_URL;
         }
       }
 
-      Promise.all([loadStatus(), loadServices(), loadHistory()]).catch(() => {
-        document.querySelector("#status-text").textContent = "Could not load status data";
+      function refreshAll() {
+        return Promise.all([loadStatus(), loadServices(), loadHistory()]).catch(() => {
+          document.querySelector("#status-text").textContent = "Could not load status data";
+        });
+      }
+
+      refreshAll();
+
+      /* Re-fetch data when tab regains focus (if at least 60s since last load) */
+      let lastLoad = Date.now();
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible" && Date.now() - lastLoad > 60000) {
+          lastLoad = Date.now();
+          refreshAll();
+        }
       });
     </script>
   </body>
