@@ -663,9 +663,17 @@ const base = import.meta.env.BASE_URL;
         const dnsDown = !s.dns?.ok;
         const dnsWarn = s.dns?.ok && (s.dns.cnameValid === false || s.dns.rootValid === false);
 
-        if (!s.http?.ok || dnsDown) {
+        /* Detect if failures are timeouts (transient) vs genuine outages */
+        const httpTimeout = !s.http?.ok && /timeout|abort/i.test(s.http?.error || "");
+        const sslTimeout = !s.ssl?.ok && /timeout|abort/i.test(s.ssl?.error || "");
+        const allTimeouts = (!s.http?.ok ? httpTimeout : true) && (!s.ssl?.ok ? sslTimeout : true);
+
+        if ((!s.http?.ok || dnsDown) && !allTimeouts) {
           banner.className = "status-banner down";
           document.querySelector("#status-text").textContent = "Issues Detected";
+        } else if ((!s.http?.ok || dnsDown) && allTimeouts) {
+          banner.className = "status-banner degraded";
+          document.querySelector("#status-text").textContent = "Check In Progress";
         } else if (sslWarn || domainWarn || dnsWarn) {
           banner.className = "status-banner degraded";
           document.querySelector("#status-text").textContent = "Attention Required";
@@ -688,9 +696,10 @@ const base = import.meta.env.BASE_URL;
           httpValue.textContent = "Online";
           httpDetail.textContent = `${s.http.ms}ms response`;
         } else {
-          httpBadge.textContent = "Down";
-          httpValue.textContent = "Offline";
-          httpDetail.textContent = s.http?.error ?? "Unreachable";
+          const isTimeout = /timeout|abort/i.test(s.http?.error || "");
+          httpBadge.textContent = isTimeout ? "Error" : "Down";
+          httpValue.textContent = isTimeout ? "Check failed" : "Offline";
+          httpDetail.textContent = isTimeout ? "Timed out — will retry" : (s.http?.error ?? "Unreachable");
         }
 
         /* SSL card */
@@ -704,9 +713,10 @@ const base = import.meta.env.BASE_URL;
           sslValue.textContent = s.ssl.daysLeft > 0 ? `${s.ssl.daysLeft} days remaining` : "Expired";
           sslDetail.textContent = `Expires ${(s.ssl.expiresAt || "").slice(0, 10)}`;
         } else {
-          sslBadge.textContent = "Expired";
-          sslValue.textContent = "Expired";
-          sslDetail.textContent = s.ssl?.error ?? "No data";
+          const isTimeout = s.ssl?.error === "timeout" || /abort/i.test(s.ssl?.error || "");
+          sslBadge.textContent = isTimeout ? "Error" : "Expired";
+          sslValue.textContent = isTimeout ? "Check failed" : "Expired";
+          sslDetail.textContent = isTimeout ? "Timed out — will retry" : (s.ssl?.error ?? "No data");
         }
 
         /* Domain card */
@@ -720,9 +730,10 @@ const base = import.meta.env.BASE_URL;
           domainValue.textContent = s.domain.daysLeft > 0 ? `${s.domain.daysLeft} days remaining` : "Expired";
           domainDetail.textContent = `Expires ${(s.domain.expiresAt || "").slice(0, 10)}`;
         } else {
-          domainBadge.textContent = "Expired";
-          domainValue.textContent = "Expired";
-          domainDetail.textContent = s.domain?.error ?? "Not configured";
+          const isTimeout = /timeout|abort/i.test(s.domain?.error || "");
+          domainBadge.textContent = isTimeout ? "Error" : "Expired";
+          domainValue.textContent = isTimeout ? "Check failed" : "Expired";
+          domainDetail.textContent = isTimeout ? "Timed out — will retry" : (s.domain?.error ?? "Not configured");
         }
 
         /* DNS card */

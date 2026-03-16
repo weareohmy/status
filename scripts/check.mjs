@@ -3,58 +3,83 @@ import dns from "node:dns/promises";
 import tls from "node:tls";
 import sites from "../config/sites.json" with { type: 'json' };
 
-async function checkHttp(url, timeoutMs = 10000) {
-  const start = Date.now();
-  const controller = new AbortController();
-  const t = setTimeout(() => controller.abort(), timeoutMs);
+/* ── HTTP check ─────────────────────────────────────────────── */
 
-  try {
-    const res = await fetch(url, {
-      method: "GET",
-      redirect: "follow",
-      signal: controller.signal,
-      headers: { "user-agent": "StatusMonitor/1.0" }
-    });
-    clearTimeout(t);
-    return { ok: res.status >= 200 && res.status < 400, status: res.status, ms: Date.now() - start, error: null };
-  } catch (e) {
-    clearTimeout(t);
-    return { ok: false, status: null, ms: null, error: String(e) };
+async function checkHttp(url, timeoutMs = 15000, retries = 2) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const start = Date.now();
+    const controller = new AbortController();
+    const t = setTimeout(() => controller.abort(), timeoutMs);
+
+    try {
+      const res = await fetch(url, {
+        method: "HEAD",
+        redirect: "follow",
+        signal: controller.signal,
+        headers: { "user-agent": "StatusMonitor/1.0" }
+      });
+      clearTimeout(t);
+      return { ok: res.status >= 200 && res.status < 400, status: res.status, ms: Date.now() - start, error: null };
+    } catch (e) {
+      clearTimeout(t);
+      if (attempt < retries) {
+        await new Promise(r => setTimeout(r, 2000));
+        continue;
+      }
+      return { ok: false, status: null, ms: null, error: String(e) };
+    }
   }
 }
 
-async function checkCert(hostname, port = 443) {
-  return await new Promise((resolve) => {
-    const socket = tls.connect(
-      { host: hostname, port, servername: hostname, timeout: 10000 },
-      () => {
-        const cert = socket.getPeerCertificate();
-        socket.end();
+/* ── SSL certificate check ──────────────────────────────────── */
 
-        const notAfter = cert?.valid_to ? new Date(cert.valid_to) : null;
-        const daysLeft = notAfter ? Math.ceil((notAfter - new Date()) / 86400000) : null;
+async function checkCert(hostname, port = 443, retries = 2) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const result = await new Promise((resolve) => {
+      const socket = tls.connect(
+        { host: hostname, port, servername: hostname, timeout: 15000 },
+        () => {
+          const cert = socket.getPeerCertificate();
+          socket.end();
 
-        resolve({
-          ok: Boolean(notAfter),
-          expiresAt: notAfter?.toISOString() ?? null,
-          daysLeft,
-          issuer: cert?.issuer?.O ?? null,
-          subject: cert?.subject?.CN ?? null
-        });
-      }
-    );
+          const notAfter = cert?.valid_to ? new Date(cert.valid_to) : null;
+          const daysLeft = notAfter ? Math.ceil((notAfter - new Date()) / 86400000) : null;
 
-    socket.on("error", (e) => resolve({ ok: false, expiresAt: null, daysLeft: null, error: String(e) }));
-    socket.on("timeout", () => {
-      socket.destroy();
-      resolve({ ok: false, expiresAt: null, daysLeft: null, error: "timeout" });
+          resolve({
+            ok: Boolean(notAfter),
+            expiresAt: notAfter?.toISOString() ?? null,
+            daysLeft,
+            issuer: cert?.issuer?.O ?? null,
+            subject: cert?.subject?.CN ?? null
+          });
+        }
+      );
+
+      socket.on("error", (e) => resolve({ ok: false, expiresAt: null, daysLeft: null, error: String(e) }));
+      socket.on("timeout", () => {
+        socket.destroy();
+        resolve({ ok: false, expiresAt: null, daysLeft: null, error: "timeout" });
+      });
     });
-  });
+
+    if (result.ok || attempt >= retries) return result;
+    await new Promise(r => setTimeout(r, 2000));
+  }
+}
+
+/* ── Domain expiry via RDAP ─────────────────────────────────── */
+
+let rdapBootstrap = null;
+
+async function getRdapBootstrap() {
+  if (rdapBootstrap) return rdapBootstrap;
+  rdapBootstrap = await fetch("https://data.iana.org/rdap/dns.json").then((r) => r.json());
+  return rdapBootstrap;
 }
 
 async function checkDomainRdap(domain) {
   try {
-    const boot = await fetch("https://data.iana.org/rdap/dns.json").then((r) => r.json());
+    const boot = await getRdapBootstrap();
     const tld = domain.split(".").pop().toLowerCase();
     const service = boot.services.find(([tlds]) => tlds.map((x) => x.toLowerCase()).includes(tld));
     if (!service) return { ok: false, expiresAt: null, daysLeft: null, error: "No RDAP service for TLD" };
@@ -76,9 +101,11 @@ async function checkDomainRdap(domain) {
   }
 }
 
+/* ── DNS resolution check ───────────────────────────────────── */
+
 const NETLIFY_LB = "75.2.60.5";
 
-async function checkDns(hostname, timeoutMs = 10000) {
+async function checkDns(hostname, timeoutMs = 15000) {
   try {
     const result = await Promise.race([
       (async () => {
@@ -112,6 +139,8 @@ async function checkDns(hostname, timeoutMs = 10000) {
   }
 }
 
+/* ── Per-site orchestration ─────────────────────────────────── */
+
 async function checkSite(s) {
   const [http, ssl, domain, dnsResult] = await Promise.all([
     checkHttp(s.url),
@@ -122,10 +151,22 @@ async function checkSite(s) {
   return [s.slug, { meta: { name: s.name, url: s.url }, http, ssl, domain, dns: dnsResult }];
 }
 
+/* ── Main ───────────────────────────────────────────────────── */
+
 async function main() {
   const out = { generatedAt: new Date().toISOString(), sites: {} };
 
-  const results = await Promise.all(sites.map(checkSite));
+  /* Pre-fetch the RDAP bootstrap file once before checking sites */
+  await getRdapBootstrap().catch(() => {});
+
+  /* Check sites in batches of 3 to avoid overwhelming the runner */
+  const results = [];
+  for (let i = 0; i < sites.length; i += 3) {
+    const batch = sites.slice(i, i + 3);
+    const batchResults = await Promise.all(batch.map(checkSite));
+    results.push(...batchResults);
+  }
+
   for (const [slug, data] of results) {
     out.sites[slug] = data;
   }
