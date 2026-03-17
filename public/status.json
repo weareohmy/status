@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T13:00:39.896Z",
+  "generatedAt": "2026-03-17T13:05:21.030Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 166,
+        "ms": 207,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,13 +48,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 387,
+        "ms": 401,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-04-18T13:03:48.000Z",
-        "daysLeft": 33,
+        "daysLeft": 32,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 391,
+        "ms": 440,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 238,
+        "ms": 197,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 244,
+        "ms": 225,
         "error": null
       },
       "ssl": {
@@ -185,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 277,
+        "ms": 239,
         "error": null
       },
       "ssl": {
