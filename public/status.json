@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T07:05:24.384Z",
+  "generatedAt": "2026-03-23T07:10:26.293Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 131,
+        "ms": 89,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 313,
+        "ms": 94,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 331,
+        "ms": 499,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 433,
+        "ms": 195,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 311,
+        "ms": 482,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 330,
+        "ms": 338,
         "error": null
       },
       "ssl": {
