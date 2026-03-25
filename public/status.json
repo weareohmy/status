@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T12:10:28.988Z",
+  "generatedAt": "2026-03-25T12:15:25.724Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 178,
+        "ms": 56,
         "error": null
       },
       "ssl": {
@@ -48,13 +48,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 401,
+        "ms": 184,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-06-17T12:13:47.000Z",
-        "daysLeft": 85,
+        "daysLeft": 84,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 409,
+        "ms": 266,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 309,
+        "ms": 65,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 59,
+        "ms": 132,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 414,
+        "ms": 111,
         "error": null
       },
       "ssl": {
