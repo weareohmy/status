@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T12:15:25.333Z",
+  "generatedAt": "2026-03-26T12:20:26.716Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 148,
+        "ms": 133,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 740,
+        "ms": 404,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 153,
+        "ms": 402,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 299,
+        "ms": 70,
         "error": null
       },
       "ssl": {
@@ -137,10 +137,10 @@
         "subject": "www.rbbecon.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 326,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "TypeError: fetch failed"
       },
       "dns": {
         "ok": true,
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 232,
+        "ms": 261,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 195,
+        "ms": 534,
         "error": null
       },
       "ssl": {
