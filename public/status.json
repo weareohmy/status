@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T03:50:27.709Z",
+  "generatedAt": "2026-03-27T03:55:21.841Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,10 +7,10 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 353,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -46,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 349,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-06-17T12:13:47.000Z",
+        "daysLeft": 83,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -67,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -86,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 302,
+        "ms": 349,
         "error": null
       },
       "ssl": {
@@ -106,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -123,10 +124,10 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 170,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -145,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -162,10 +163,10 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 174,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -184,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -202,10 +203,10 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 173,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -224,8 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
