@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T17:30:30.916Z",
+  "generatedAt": "2026-03-27T17:35:29.321Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 72,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 302,
+        "ms": 317,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 30,
+        "ms": 563,
         "error": null
       },
       "ssl": {
@@ -100,7 +100,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 427,
+        "daysLeft": 426,
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 268,
+        "ms": 194,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 528,
+        "ms": 325,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 292,
+        "ms": 497,
         "error": null
       },
       "ssl": {
