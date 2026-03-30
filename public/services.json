@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-30T19:35:40.911Z",
+  "generatedAt": "2026-03-30T19:40:46.985Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-03-30T19:35:40.911Z",
+      "fetchedAt": "2026-03-30T19:40:46.985Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-03-30T19:35:40.911Z",
+      "fetchedAt": "2026-03-30T19:40:46.985Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "degraded",
+      "summary": "operational",
       "page": null,
       "components": [
         {
@@ -68,7 +68,7 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "y7hq47ts327k",
@@ -98,7 +98,7 @@
         {
           "id": "slkrr5915mm4",
           "name": "Netlify Functions",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "rdfdmhqxp2wq",
@@ -123,7 +123,7 @@
         {
           "id": "y4nk0cx6qf7g",
           "name": "Edge Functions",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "8tv6bfxx614q",
