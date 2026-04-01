@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T16:00:48.195Z",
+  "generatedAt": "2026-04-01T16:05:25.930Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 522,
+        "ms": 77,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 532,
+        "ms": 264,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 436,
+        "ms": 450,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 311,
+        "ms": 172,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 190,
+        "ms": 39,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 222,
+        "ms": 159,
         "error": null
       },
       "ssl": {
