@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T06:20:33.498Z",
+  "generatedAt": "2026-04-02T06:25:22.940Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 89,
+        "ms": 301,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 693,
+        "ms": 327,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 113,
+        "ms": 572,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 249,
+        "ms": 260,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 221,
+        "ms": 398,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,13 +205,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 91,
+        "ms": 291,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-30T06:23:49.000Z",
-        "daysLeft": 59,
+        "daysLeft": 58,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
