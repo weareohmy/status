@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T01:05:24.090Z",
+  "generatedAt": "2026-04-03T01:10:33.937Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 263,
+        "ms": 144,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 272,
+        "ms": 292,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 305,
+        "ms": 283,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 136,
+        "ms": 196,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 280,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "99.83.231.61",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 209,
+        "ms": 323,
         "error": null
       },
       "ssl": {
@@ -225,8 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
