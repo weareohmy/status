@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T12:55:24.429Z",
+  "generatedAt": "2026-04-06T13:00:43.491Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 64,
+        "ms": 91,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 885,
+        "ms": 242,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 778,
+        "ms": 240,
         "error": null
       },
       "ssl": {
@@ -98,17 +98,17 @@
         "subject": "www.currentvehicles.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 417,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "TypeError: fetch failed"
       },
       "dns": {
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 344,
+        "ms": 174,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 507,
+        "ms": 358,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "13.52.188.95"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 526,
+        "ms": 195,
         "error": null
       },
       "ssl": {
