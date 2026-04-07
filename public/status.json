@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T03:15:31.070Z",
+  "generatedAt": "2026-04-07T03:20:34.650Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 235,
+        "ms": 62,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 414,
+        "ms": 253,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 432,
+        "ms": 442,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 153,
+        "ms": 203,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 236,
+        "ms": 213,
         "error": null
       },
       "ssl": {
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 312,
+        "ms": 221,
         "error": null
       },
       "ssl": {
@@ -225,8 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
