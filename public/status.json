@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-09T10:20:34.530Z",
+  "generatedAt": "2026-04-09T10:25:30.380Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 79,
+        "ms": 184,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 351,
+        "ms": 343,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 561,
+        "ms": 623,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 220,
+        "ms": 167,
         "error": null
       },
       "ssl": {
@@ -139,7 +139,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 313,
+        "daysLeft": 312,
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 241,
+        "ms": 180,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 420,
+        "ms": 295,
         "error": null
       },
       "ssl": {
