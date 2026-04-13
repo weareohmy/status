@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T20:00:44.052Z",
+  "generatedAt": "2026-04-13T20:05:32.216Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 62,
+        "ms": 414,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 275,
+        "ms": 345,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 318,
+        "ms": 376,
         "error": null
       },
       "ssl": {
@@ -126,13 +126,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 237,
+        "ms": 167,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-06-15T20:03:47.000Z",
-        "daysLeft": 64,
+        "daysLeft": 63,
         "issuer": "Let's Encrypt",
         "subject": "www.rbbecon.com"
       },
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1210,
+        "ms": 147,
         "error": null
       },
       "ssl": {
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "99.83.231.61",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 299,
+        "ms": 226,
         "error": null
       },
       "ssl": {
