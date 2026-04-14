@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T22:55:25.810Z",
+  "generatedAt": "2026-04-14T23:00:47.587Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 315,
+        "ms": 345,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 568,
+        "ms": 533,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 80,
+        "ms": 547,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 206,
+        "ms": 199,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 289,
+        "ms": 279,
         "error": null
       },
       "ssl": {
@@ -185,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 300,
+        "ms": 483,
         "error": null
       },
       "ssl": {
