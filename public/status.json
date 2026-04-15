@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T06:20:32.849Z",
+  "generatedAt": "2026-04-15T06:25:29.013Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 263,
+        "ms": 47,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 430,
+        "ms": 69,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 621,
+        "ms": 170,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 304,
+        "ms": 54,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 316,
+        "ms": 167,
         "error": null
       },
       "ssl": {
@@ -205,13 +205,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 432,
+        "ms": 129,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-30T06:23:49.000Z",
-        "daysLeft": 46,
+        "daysLeft": 45,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
