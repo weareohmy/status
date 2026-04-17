@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T20:00:43.820Z",
+  "generatedAt": "2026-04-17T20:06:06.665Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 264,
+        "ms": 74,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 316,
+        "ms": 282,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 322,
+        "ms": 26,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,13 +126,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 287,
+        "ms": 111,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-06-15T20:03:47.000Z",
-        "daysLeft": 60,
+        "daysLeft": 59,
         "issuer": "Let's Encrypt",
         "subject": "www.rbbecon.com"
       },
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 280,
+        "ms": 277,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "98.84.224.111"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 284,
+        "ms": 387,
         "error": null
       },
       "ssl": {
