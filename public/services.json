@@ -1,49 +1,18 @@
 {
-  "generatedAt": "2026-04-17T19:01:02.313Z",
+  "generatedAt": "2026-04-17T19:05:59.475Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-04-17T19:01:02.313Z",
-      "ok": true,
-      "httpStatus": 200,
-      "error": null,
-      "summary": "operational",
-      "components": [
-        {
-          "id": "cda",
-          "name": "Content Delivery API",
-          "status": "operational"
-        },
-        {
-          "id": "cma",
-          "name": "Content Management API",
-          "status": "operational"
-        },
-        {
-          "id": "assets",
-          "name": "Assets CDN",
-          "status": "operational"
-        },
-        {
-          "id": "administrativeAreas",
-          "name": "Projects administrative interface",
-          "status": "operational"
-        },
-        {
-          "id": "dashboard",
-          "name": "Account dashboard interface",
-          "status": "operational"
-        },
-        {
-          "id": "site",
-          "name": "Website",
-          "status": "operational"
-        }
-      ]
+      "fetchedAt": "2026-04-17T19:05:59.475Z",
+      "ok": false,
+      "httpStatus": null,
+      "error": "AbortError: This operation was aborted",
+      "summary": "unknown",
+      "components": []
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-04-17T19:01:02.313Z",
+      "fetchedAt": "2026-04-17T19:05:59.475Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
