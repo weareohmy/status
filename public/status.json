@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T06:20:28.833Z",
+  "generatedAt": "2026-04-18T06:25:23.354Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 227,
+        "ms": 48,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 259,
+        "ms": 291,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 564,
+        "ms": 268,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 441,
+        "ms": 87,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 337,
+        "ms": 87,
         "error": null
       },
       "ssl": {
@@ -185,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,13 +205,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 366,
+        "ms": 96,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-05-30T06:23:49.000Z",
-        "daysLeft": 43,
+        "daysLeft": 42,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
