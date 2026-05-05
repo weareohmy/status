@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-05T01:36:08.088Z",
+  "generatedAt": "2026-05-05T01:41:11.339Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-05T01:36:08.088Z",
+      "fetchedAt": "2026-05-05T01:41:11.339Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "operational",
+      "summary": "outage",
       "components": [
         {
           "id": "cda",
@@ -22,7 +22,7 @@
         {
           "id": "assets",
           "name": "Assets CDN",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "id": "administrativeAreas",
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-05T01:36:08.088Z",
+      "fetchedAt": "2026-05-05T01:41:11.339Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
