@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-06T16:45:49.215Z",
+  "generatedAt": "2026-05-06T16:50:50.187Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-06T16:45:49.215Z",
+      "fetchedAt": "2026-05-06T16:50:50.187Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,22 +43,22 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-06T16:45:49.215Z",
+      "fetchedAt": "2026-05-06T16:50:50.187Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "degraded",
+      "summary": "operational",
       "page": null,
       "components": [
         {
           "id": "8cw12qpb2n72",
           "name": "High-Performance Edge Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "l65dl1552383",
           "name": "Standard Edge Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "7l9mcmwhp0n4",
@@ -128,7 +128,7 @@
         {
           "id": "8tv6bfxx614q",
           "name": "Netlify Image CDN",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "wd1x1gbx9h06",
@@ -183,7 +183,7 @@
         {
           "id": "vlfv3sjxqxd0",
           "name": "Agent Runners",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "2vg089sd50y0",
