@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T23:10:41.955Z",
+  "generatedAt": "2026-05-08T23:14:17.517Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 111,
+        "ms": 60,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 109,
+        "ms": 259,
         "error": null
       },
       "ssl": {
@@ -88,13 +88,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 387,
+        "ms": 266,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-07-26T23:13:49.000Z",
-        "daysLeft": 80,
+        "daysLeft": 79,
         "issuer": "Let's Encrypt",
         "subject": "www.currentvehicles.com"
       },
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 145,
+        "ms": 188,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 156,
+        "ms": 306,
         "error": null
       },
       "ssl": {
@@ -186,8 +186,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "99.83.231.61",
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 151,
+        "ms": 361,
         "error": null
       },
       "ssl": {
