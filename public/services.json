@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-08T03:55:56.302Z",
+  "generatedAt": "2026-05-08T04:01:07.397Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-08T03:55:56.302Z",
+      "fetchedAt": "2026-05-08T04:01:07.397Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-08T03:55:56.302Z",
+      "fetchedAt": "2026-05-08T04:01:07.397Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -53,12 +53,12 @@
         {
           "id": "8cw12qpb2n72",
           "name": "High-Performance Edge Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "l65dl1552383",
           "name": "Standard Edge Network",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "7l9mcmwhp0n4",
