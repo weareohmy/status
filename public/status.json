@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T02:00:51.409Z",
+  "generatedAt": "2026-05-09T02:05:39.247Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 81,
+        "ms": 286,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 435,
+        "ms": 326,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 491,
+        "ms": 269,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 260,
+        "ms": 174,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 281,
+        "ms": 1005,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 295,
+        "ms": 177,
         "error": null
       },
       "ssl": {
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
