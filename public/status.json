@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T07:55:29.959Z",
+  "generatedAt": "2026-05-10T08:00:52.449Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 365,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.ohmy.studio"
+        "ok": true,
+        "expiresAt": "2026-07-08T12:44:03.000Z",
+        "daysLeft": 60,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -25,13 +26,18 @@
         "source": "https://rdap.identitydigital.services/rdap/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.ohmy.studio"
+        "ok": true,
+        "cname": "ohmy-website-v4.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "104.198.14.52"
+        ],
+        "cnameValid": true,
+        "rootValid": false,
+        "error": null
       }
     },
     "noteworthy": {
@@ -40,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 252,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.noteworthy.co.uk"
+        "ok": true,
+        "expiresAt": "2026-06-17T12:13:47.000Z",
+        "daysLeft": 39,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -58,13 +65,19 @@
         "source": "https://rdap.nominet.uk/uk/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.noteworthy.co.uk"
+        "ok": true,
+        "cname": "noteworthy-website.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "54.208.236.76",
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "currentvehicles": {
@@ -73,16 +86,17 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 192,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.currentvehicles.com"
+        "ok": true,
+        "expiresAt": "2026-07-26T23:13:49.000Z",
+        "daysLeft": 78,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -91,13 +105,18 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.currentvehicles.com"
+        "ok": true,
+        "cname": "current-website-production.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "rbbecon": {
@@ -106,16 +125,17 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 122,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.rbbecon.com"
+        "ok": true,
+        "expiresAt": "2026-06-15T20:03:47.000Z",
+        "daysLeft": 37,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
       },
       "domain": {
         "ok": true,
@@ -124,13 +144,18 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.rbbecon.com"
+        "ok": true,
+        "cname": "rbb-website.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "sonder": {
@@ -139,16 +164,17 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 284,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.sonder-mr.com"
+        "ok": true,
+        "expiresAt": "2026-07-07T19:24:00.000Z",
+        "daysLeft": 59,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
       },
       "domain": {
         "ok": true,
@@ -157,13 +183,19 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.sonder-mr.com"
+        "ok": true,
+        "cname": "sonder-website-production.netlify.app",
+        "a": [
+          "18.208.88.157",
+          "98.84.224.111"
+        ],
+        "rootA": [
+          "99.83.231.61",
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     },
     "auriens": {
@@ -172,16 +204,17 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 262,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error: getaddrinfo ENOTFOUND www.auriens.com"
+        "ok": true,
+        "expiresAt": "2026-07-29T05:33:51.000Z",
+        "daysLeft": 80,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
       },
       "domain": {
         "ok": true,
@@ -190,13 +223,18 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": false,
-        "cname": null,
-        "a": [],
-        "rootA": null,
-        "cnameValid": false,
-        "rootValid": null,
-        "error": "Error: queryA ENOTFOUND www.auriens.com"
+        "ok": true,
+        "cname": "auriens-website-production.netlify.app",
+        "a": [
+          "98.84.224.111",
+          "18.208.88.157"
+        ],
+        "rootA": [
+          "75.2.60.5"
+        ],
+        "cnameValid": true,
+        "rootValid": true,
+        "error": null
       }
     }
   }
