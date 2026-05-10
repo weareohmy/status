@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-10T08:20:54.461Z",
+  "generatedAt": "2026-05-10T08:22:45.757Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-10T08:20:54.461Z",
+      "fetchedAt": "2026-05-10T08:22:45.757Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-10T08:20:54.461Z",
+      "fetchedAt": "2026-05-10T08:22:45.757Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -183,7 +183,7 @@
         {
           "id": "vlfv3sjxqxd0",
           "name": "Agent Runners",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "2vg089sd50y0",
