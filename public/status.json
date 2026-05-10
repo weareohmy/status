@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T06:25:31.072Z",
+  "generatedAt": "2026-05-10T06:30:43.339Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 23,
+        "ms": 335,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 36,
+        "ms": 333,
         "error": null
       },
       "ssl": {
@@ -65,19 +65,13 @@
         "source": "https://rdap.nominet.uk/uk/"
       },
       "dns": {
-        "ok": true,
-        "cname": "noteworthy-website.netlify.app",
-        "a": [
-          "98.84.224.111",
-          "18.208.88.157"
-        ],
-        "rootA": [
-          "54.208.236.76",
-          "75.2.60.5"
-        ],
-        "cnameValid": true,
-        "rootValid": true,
-        "error": null
+        "ok": false,
+        "cname": null,
+        "a": [],
+        "rootA": null,
+        "cnameValid": false,
+        "rootValid": null,
+        "error": "Error: queryA ENOTFOUND www.noteworthy.co.uk"
       }
     },
     "currentvehicles": {
@@ -88,7 +82,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 496,
+        "ms": 128,
         "error": null
       },
       "ssl": {
@@ -105,18 +99,13 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": true,
-        "cname": "current-website-production.netlify.app",
-        "a": [
-          "98.84.224.111",
-          "18.208.88.157"
-        ],
-        "rootA": [
-          "75.2.60.5"
-        ],
-        "cnameValid": true,
-        "rootValid": true,
-        "error": null
+        "ok": false,
+        "cname": null,
+        "a": [],
+        "rootA": null,
+        "cnameValid": false,
+        "rootValid": null,
+        "error": "Error: queryA ENOTFOUND www.currentvehicles.com"
       }
     },
     "rbbecon": {
@@ -127,7 +116,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 325,
+        "ms": 418,
         "error": null
       },
       "ssl": {
@@ -147,8 +136,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +155,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 165,
+        "ms": 422,
         "error": null
       },
       "ssl": {
@@ -186,12 +175,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +195,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 166,
+        "ms": 541,
         "error": null
       },
       "ssl": {
@@ -226,8 +215,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
