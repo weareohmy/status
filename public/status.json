@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T06:15:41.385Z",
+  "generatedAt": "2026-05-10T06:20:42.026Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 167,
+        "ms": 195,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 297,
+        "ms": 213,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 296,
+        "ms": 173,
         "error": null
       },
       "ssl": {
@@ -105,18 +105,13 @@
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
-        "ok": true,
-        "cname": "current-website-production.netlify.app",
-        "a": [
-          "18.208.88.157",
-          "98.84.224.111"
-        ],
-        "rootA": [
-          "75.2.60.5"
-        ],
-        "cnameValid": true,
-        "rootValid": true,
-        "error": null
+        "ok": false,
+        "cname": null,
+        "a": [],
+        "rootA": null,
+        "cnameValid": false,
+        "rootValid": null,
+        "error": "Error: queryA ENOTFOUND www.currentvehicles.com"
       }
     },
     "rbbecon": {
@@ -127,7 +122,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 153,
+        "ms": 244,
         "error": null
       },
       "ssl": {
@@ -166,7 +161,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 18,
+        "ms": 266,
         "error": null
       },
       "ssl": {
@@ -190,8 +185,8 @@
           "98.84.224.111"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +201,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 271,
+        "ms": 336,
         "error": null
       },
       "ssl": {
@@ -226,8 +221,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
