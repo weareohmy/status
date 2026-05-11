@@ -1,49 +1,18 @@
 {
-  "generatedAt": "2026-05-11T13:41:26.931Z",
+  "generatedAt": "2026-05-11T13:46:20.847Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-11T13:41:26.931Z",
-      "ok": true,
-      "httpStatus": 200,
-      "error": null,
-      "summary": "operational",
-      "components": [
-        {
-          "id": "cda",
-          "name": "Content Delivery API",
-          "status": "operational"
-        },
-        {
-          "id": "cma",
-          "name": "Content Management API",
-          "status": "operational"
-        },
-        {
-          "id": "assets",
-          "name": "Assets CDN",
-          "status": "operational"
-        },
-        {
-          "id": "administrativeAreas",
-          "name": "Projects administrative interface",
-          "status": "operational"
-        },
-        {
-          "id": "dashboard",
-          "name": "Account dashboard interface",
-          "status": "operational"
-        },
-        {
-          "id": "site",
-          "name": "Website",
-          "status": "operational"
-        }
-      ]
+      "fetchedAt": "2026-05-11T13:46:20.847Z",
+      "ok": false,
+      "httpStatus": null,
+      "error": "TypeError: fetch failed",
+      "summary": "unknown",
+      "components": []
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-11T13:41:26.931Z",
+      "fetchedAt": "2026-05-11T13:46:20.847Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
