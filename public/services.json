@@ -1,22 +1,53 @@
 {
-  "generatedAt": "2026-05-19T21:45:06.431Z",
+  "generatedAt": "2026-05-19T21:51:01.688Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-05-19T21:45:06.431Z",
-      "ok": false,
-      "httpStatus": null,
-      "error": "TypeError: fetch failed",
-      "summary": "unknown",
-      "components": []
-    },
-    "netlify": {
-      "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-05-19T21:45:06.431Z",
+      "fetchedAt": "2026-05-19T21:51:01.688Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "outage",
+      "summary": "operational",
+      "components": [
+        {
+          "id": "cda",
+          "name": "Content Delivery API",
+          "status": "operational"
+        },
+        {
+          "id": "cma",
+          "name": "Content Management API",
+          "status": "operational"
+        },
+        {
+          "id": "assets",
+          "name": "Assets CDN",
+          "status": "operational"
+        },
+        {
+          "id": "administrativeAreas",
+          "name": "Projects administrative interface",
+          "status": "operational"
+        },
+        {
+          "id": "dashboard",
+          "name": "Account dashboard interface",
+          "status": "operational"
+        },
+        {
+          "id": "site",
+          "name": "Website",
+          "status": "operational"
+        }
+      ]
+    },
+    "netlify": {
+      "source": "https://www.netlifystatus.com/api/v2/summary.json",
+      "fetchedAt": "2026-05-19T21:51:01.688Z",
+      "ok": true,
+      "httpStatus": 200,
+      "error": null,
+      "summary": "degraded",
       "page": null,
       "components": [
         {
@@ -42,7 +73,7 @@
         {
           "id": "y7hq47ts327k",
           "name": "Netlify Application UI",
-          "status": "outage"
+          "status": "degraded"
         },
         {
           "id": "42cdn8lcw3pr",
@@ -67,7 +98,7 @@
         {
           "id": "slkrr5915mm4",
           "name": "Netlify Functions",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "id": "rdfdmhqxp2wq",
