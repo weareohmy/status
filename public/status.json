@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T21:08:25.722Z",
+  "generatedAt": "2026-05-19T21:10:41.469Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 316,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.ohmy.studio. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
+        "ok": true,
+        "expiresAt": "2026-07-08T12:44:03.000Z",
+        "daysLeft": 50,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -45,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 5005,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.noteworthy.co.uk. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
+        "ok": true,
+        "expiresAt": "2026-08-16T11:24:02.000Z",
+        "daysLeft": 89,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -84,10 +86,10 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 418,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -132,7 +134,7 @@
         "ok": false,
         "expiresAt": null,
         "daysLeft": null,
-        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.rbbecon.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
+        "error": "Error: Client network socket disconnected before secure TLS connection was established"
       },
       "domain": {
         "ok": true,
@@ -221,8 +223,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
