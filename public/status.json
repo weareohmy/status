@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T21:40:43.806Z",
+  "generatedAt": "2026-05-19T21:44:14.989Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 260,
+        "ms": 12,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "104.198.14.52"
@@ -46,17 +46,16 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 265,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-08-16T11:24:02.000Z",
-        "daysLeft": 89,
-        "issuer": "Let's Encrypt",
-        "subject": "www.noteworthy.co.uk"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.noteworthy.co.uk. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
       },
       "domain": {
         "ok": true,
@@ -68,8 +67,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "54.208.236.76",
@@ -86,17 +85,16 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": true,
-        "status": 200,
-        "ms": 274,
-        "error": null
+        "ok": false,
+        "status": null,
+        "ms": null,
+        "error": "TypeError: fetch failed"
       },
       "ssl": {
-        "ok": true,
-        "expiresAt": "2026-07-26T23:13:49.000Z",
-        "daysLeft": 69,
-        "issuer": "Let's Encrypt",
-        "subject": "www.currentvehicles.com"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.currentvehicles.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
       },
       "domain": {
         "ok": true,
@@ -108,8 +106,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +125,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 65,
+        "ms": 228,
         "error": null
       },
       "ssl": {
@@ -147,8 +145,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -164,16 +162,17 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 3080,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-07-07T19:24:00.000Z",
+        "daysLeft": 49,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
       },
       "domain": {
         "ok": true,
@@ -185,12 +184,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -203,16 +202,17 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 873,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-07-29T05:33:51.000Z",
+        "daysLeft": 71,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
       },
       "domain": {
         "ok": true,
@@ -224,8 +224,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
