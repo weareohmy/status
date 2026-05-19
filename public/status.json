@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T21:35:34.986Z",
+  "generatedAt": "2026-05-19T21:40:43.806Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 4274,
+        "ms": 260,
         "error": null
       },
       "ssl": {
@@ -46,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 265,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "timeout"
+        "ok": true,
+        "expiresAt": "2026-08-16T11:24:02.000Z",
+        "daysLeft": 89,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -67,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "54.208.236.76",
@@ -87,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 168,
+        "ms": 274,
         "error": null
       },
       "ssl": {
@@ -124,10 +125,10 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 65,
+        "error": null
       },
       "ssl": {
         "ok": true,
@@ -146,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -172,7 +173,7 @@
         "ok": false,
         "expiresAt": null,
         "daysLeft": null,
-        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.sonder-mr.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -188,8 +189,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -211,7 +212,7 @@
         "ok": false,
         "expiresAt": null,
         "daysLeft": null,
-        "error": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.auriens.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app"
+        "error": "timeout"
       },
       "domain": {
         "ok": true,
@@ -223,8 +224,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
