@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-01T21:25:56.987Z",
+  "generatedAt": "2026-06-01T21:31:08.515Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-01T21:25:56.987Z",
+      "fetchedAt": "2026-06-01T21:31:08.515Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "operational",
+      "summary": "outage",
       "components": [
         {
           "id": "cda",
           "name": "Content Delivery API",
-          "status": "operational"
+          "status": "outage"
         },
         {
           "id": "cma",
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-01T21:25:56.987Z",
+      "fetchedAt": "2026-06-01T21:31:08.515Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
