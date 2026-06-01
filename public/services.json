@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-01T12:36:14.671Z",
+  "generatedAt": "2026-06-01T12:41:22.409Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-01T12:36:14.671Z",
+      "fetchedAt": "2026-06-01T12:41:22.409Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "outage",
+      "summary": "operational",
       "components": [
         {
           "id": "cda",
@@ -27,12 +27,12 @@
         {
           "id": "administrativeAreas",
           "name": "Projects administrative interface",
-          "status": "outage"
+          "status": "operational"
         },
         {
           "id": "dashboard",
           "name": "Account dashboard interface",
-          "status": "outage"
+          "status": "operational"
         },
         {
           "id": "site",
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-01T12:36:14.671Z",
+      "fetchedAt": "2026-06-01T12:41:22.409Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
