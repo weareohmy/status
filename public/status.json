@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T04:15:48.844Z",
+  "generatedAt": "2026-06-02T04:20:47.429Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 98,
+        "ms": 237,
         "error": null
       },
       "ssl": {
@@ -20,10 +20,10 @@
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 516,
-        "source": "https://rdap.identitydigital.services/rdap/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected token '<', \"<!doctype \"... is not valid JSON"
       },
       "dns": {
         "ok": true,
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 422,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 266,
+        "ms": 209,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 381,
+        "ms": 234,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 480,
+        "ms": 189,
         "error": null
       },
       "ssl": {
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
