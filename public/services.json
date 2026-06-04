@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-04T20:41:25.197Z",
+  "generatedAt": "2026-06-04T20:46:21.876Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-04T20:41:25.197Z",
+      "fetchedAt": "2026-06-04T20:46:21.876Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-04T20:41:25.197Z",
+      "fetchedAt": "2026-06-04T20:46:21.876Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "degraded",
+      "summary": "operational",
       "page": null,
       "components": [
         {
@@ -123,7 +123,7 @@
         {
           "id": "y4nk0cx6qf7g",
           "name": "Edge Functions",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "8tv6bfxx614q",
