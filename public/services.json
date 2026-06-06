@@ -1,170 +1,55 @@
 {
-  "generatedAt": "2026-06-06T14:16:16.957Z",
+  "generatedAt": "2026-06-06T14:21:22.489Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-06T14:16:16.957Z",
-      "ok": false,
-      "httpStatus": 500,
-      "error": "HTTP 500",
-      "summary": "unknown",
-      "components": []
-    },
-    "netlify": {
-      "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-06T14:16:16.957Z",
+      "fetchedAt": "2026-06-06T14:21:22.489Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
       "summary": "operational",
-      "page": null,
       "components": [
         {
-          "id": "8cw12qpb2n72",
-          "name": "High-Performance Edge Network",
+          "id": "cda",
+          "name": "Content Delivery API",
           "status": "operational"
         },
         {
-          "id": "l65dl1552383",
-          "name": "Standard Edge Network",
+          "id": "cma",
+          "name": "Content Management API",
           "status": "operational"
         },
         {
-          "id": "7l9mcmwhp0n4",
-          "name": "Origin Servers",
+          "id": "assets",
+          "name": "Assets CDN",
           "status": "operational"
         },
         {
-          "id": "999zpz7s4z44",
-          "name": "Build Pipeline",
+          "id": "administrativeAreas",
+          "name": "Projects administrative interface",
           "status": "operational"
         },
         {
-          "id": "y7hq47ts327k",
-          "name": "Netlify Application UI",
+          "id": "dashboard",
+          "name": "Account dashboard interface",
           "status": "operational"
         },
         {
-          "id": "42cdn8lcw3pr",
-          "name": "API",
-          "status": "operational"
-        },
-        {
-          "id": "zvf0k2ht9164",
-          "name": "Hosted DNS",
-          "status": "operational"
-        },
-        {
-          "id": "d1xjgmssxml1",
-          "name": "Prerendering",
-          "status": "operational"
-        },
-        {
-          "id": "x32lnl8nqcb1",
-          "name": "Identity",
-          "status": "operational"
-        },
-        {
-          "id": "slkrr5915mm4",
-          "name": "Netlify Functions",
-          "status": "operational"
-        },
-        {
-          "id": "rdfdmhqxp2wq",
-          "name": "Analytics",
-          "status": "operational"
-        },
-        {
-          "id": "tl0vq9gbl250",
-          "name": "Log Drains",
-          "status": "operational"
-        },
-        {
-          "id": "xrk5sg40bdvs",
-          "name": "Collaborative Deploy Previews",
-          "status": "operational"
-        },
-        {
-          "id": "j09v23r71736",
-          "name": "Git Gateway",
-          "status": "operational"
-        },
-        {
-          "id": "y4nk0cx6qf7g",
-          "name": "Edge Functions",
-          "status": "operational"
-        },
-        {
-          "id": "8tv6bfxx614q",
-          "name": "Netlify Image CDN",
-          "status": "operational"
-        },
-        {
-          "id": "wd1x1gbx9h06",
-          "name": "Netlify Blobs",
-          "status": "operational"
-        },
-        {
-          "id": "ybxdc10t2mrz",
-          "name": "Netlify Observability",
-          "status": "operational"
-        },
-        {
-          "id": "27byl3w1sscc",
-          "name": "Netlify Connect",
-          "status": "operational"
-        },
-        {
-          "id": "c1cb4ck0ysr1",
-          "name": "Netlify Create API",
-          "status": "operational"
-        },
-        {
-          "id": "bdvby4cfd1ks",
-          "name": "Visual Editor",
-          "status": "operational"
-        },
-        {
-          "id": "wpk1zvc877g5",
-          "name": "Netlify Forms",
-          "status": "operational"
-        },
-        {
-          "id": "4mpbrqjm1lkw",
-          "name": "Netlify Support Forums",
-          "status": "operational"
-        },
-        {
-          "id": "ty3v83kprpr0",
-          "name": "Netlify Helpdesk",
-          "status": "operational"
-        },
-        {
-          "id": "8d27m5s9f2xp",
-          "name": "Domain Purchasing",
-          "status": "operational"
-        },
-        {
-          "id": "gymb3ljylw9h",
-          "name": "Billing",
-          "status": "operational"
-        },
-        {
-          "id": "vlfv3sjxqxd0",
-          "name": "Agent Runners",
-          "status": "operational"
-        },
-        {
-          "id": "2vg089sd50y0",
-          "name": "AI Gateway",
-          "status": "operational"
-        },
-        {
-          "id": "krnspcbvj0fj",
-          "name": "Live Tunnel",
+          "id": "site",
+          "name": "Website",
           "status": "operational"
         }
       ]
+    },
+    "netlify": {
+      "source": "https://www.netlifystatus.com/api/v2/summary.json",
+      "fetchedAt": "2026-06-06T14:21:22.489Z",
+      "ok": false,
+      "httpStatus": 405,
+      "error": "HTTP 405",
+      "summary": "unknown",
+      "page": null,
+      "components": []
     }
   }
 }
