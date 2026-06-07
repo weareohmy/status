@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-07T15:26:14.682Z",
+  "generatedAt": "2026-06-07T15:31:13.538Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-07T15:26:14.682Z",
+      "fetchedAt": "2026-06-07T15:31:13.538Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,7 +43,7 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-07T15:26:14.682Z",
+      "fetchedAt": "2026-06-07T15:31:13.538Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
