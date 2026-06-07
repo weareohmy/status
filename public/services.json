@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-07T18:41:07.250Z",
+  "generatedAt": "2026-06-07T18:46:08.775Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-07T18:41:07.250Z",
+      "fetchedAt": "2026-06-07T18:46:08.775Z",
       "ok": false,
-      "httpStatus": 500,
-      "error": "HTTP 500",
+      "httpStatus": null,
+      "error": "TypeError: fetch failed",
       "summary": "unknown",
       "components": []
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-07T18:41:07.250Z",
+      "fetchedAt": "2026-06-07T18:46:08.775Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
