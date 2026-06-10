@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T20:45:54.397Z",
+  "generatedAt": "2026-06-10T20:50:54.026Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 91,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-07-08T12:44:03.000Z",
+        "daysLeft": 28,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -45,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 419,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-08-16T11:24:02.000Z",
+        "daysLeft": 67,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -84,16 +86,17 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 238,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-07-26T23:13:49.000Z",
+        "daysLeft": 47,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -122,16 +125,17 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 107,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-08-14T19:13:50.000Z",
+        "daysLeft": 65,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
       },
       "domain": {
         "ok": true,
@@ -143,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -160,16 +164,17 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 113,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-07-07T19:24:00.000Z",
+        "daysLeft": 27,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
       },
       "domain": {
         "ok": true,
@@ -199,16 +204,17 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 210,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-07-29T05:33:51.000Z",
+        "daysLeft": 49,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
       },
       "domain": {
         "ok": true,
