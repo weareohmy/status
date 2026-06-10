@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:10:57.162Z",
+  "generatedAt": "2026-06-10T11:15:57.058Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 166,
+        "ms": 79,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 117,
+        "ms": 454,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 187,
+        "ms": 538,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 390,
+        "ms": 147,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 208,
+        "ms": 284,
         "error": null
       },
       "ssl": {
@@ -190,8 +190,8 @@
           "52.52.192.191"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 215,
+        "ms": 295,
         "error": null
       },
       "ssl": {
@@ -219,7 +219,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-02-28T11:13:20.000Z",
-        "daysLeft": 264,
+        "daysLeft": 263,
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
