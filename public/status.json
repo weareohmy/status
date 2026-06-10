@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T14:40:58.482Z",
+  "generatedAt": "2026-06-10T14:45:59.959Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 41,
+        "ms": 44,
         "error": null
       },
       "ssl": {
@@ -22,15 +22,15 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 508,
+        "daysLeft": 507,
         "source": "https://rdap.identitydigital.services/rdap/"
       },
       "dns": {
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 336,
+        "ms": 320,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 279,
+        "ms": 567,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 350,
+        "ms": 403,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 175,
+        "ms": 319,
         "error": null
       },
       "ssl": {
@@ -190,8 +190,8 @@
           "98.84.224.111"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 381,
+        "ms": 340,
         "error": null
       },
       "ssl": {
