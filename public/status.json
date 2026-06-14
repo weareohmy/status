@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T23:11:05.886Z",
+  "generatedAt": "2026-06-14T23:16:05.790Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 109,
+        "ms": 104,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 134,
+        "ms": 103,
         "error": null
       },
       "ssl": {
@@ -88,13 +88,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 259,
+        "ms": 224,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-07-26T23:13:49.000Z",
-        "daysLeft": 43,
+        "daysLeft": 42,
         "issuer": "Let's Encrypt",
         "subject": "www.currentvehicles.com"
       },
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 219,
+        "ms": 113,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 30,
+        "ms": 160,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 270,
+        "ms": 144,
         "error": null
       },
       "ssl": {
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
