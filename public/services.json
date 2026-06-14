@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-14T19:51:41.845Z",
+  "generatedAt": "2026-06-14T19:56:30.256Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-14T19:51:41.845Z",
+      "fetchedAt": "2026-06-14T19:56:30.256Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-14T19:51:41.845Z",
+      "fetchedAt": "2026-06-14T19:56:30.256Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "operational",
+      "summary": "degraded",
       "page": null,
       "components": [
         {
@@ -58,7 +58,7 @@
         {
           "id": "l65dl1552383",
           "name": "Standard Edge Network",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "id": "7l9mcmwhp0n4",
@@ -68,7 +68,7 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "id": "y7hq47ts327k",
