@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T05:31:08.402Z",
+  "generatedAt": "2026-06-15T05:36:25.056Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 30,
+        "ms": 313,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 343,
+        "ms": 308,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 349,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 279,
+        "ms": 109,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 145,
+        "ms": 216,
         "error": null
       },
       "ssl": {
@@ -206,13 +206,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 159,
+        "ms": 224,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-07-29T05:33:51.000Z",
-        "daysLeft": 45,
+        "daysLeft": 44,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
