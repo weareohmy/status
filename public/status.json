@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T11:31:25.423Z",
+  "generatedAt": "2026-06-18T11:35:55.777Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,13 +9,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 268,
+        "ms": 116,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-09-11T11:34:05.000Z",
-        "daysLeft": 86,
+        "daysLeft": 85,
         "issuer": "Let's Encrypt",
         "subject": "www.ohmy.studio"
       },
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 204,
+        "ms": 262,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 426,
+        "ms": 234,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 353,
+        "ms": 176,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 373,
+        "ms": 20,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 485,
+        "ms": 164,
         "error": null
       },
       "ssl": {
