@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:55:55.585Z",
+  "generatedAt": "2026-06-21T01:01:20.711Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 23,
+        "ms": 25,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 119,
+        "ms": 286,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 212,
+        "ms": 551,
         "error": null
       },
       "ssl": {
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 15,
+        "ms": 14,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 20,
+        "ms": 222,
         "error": null
       },
       "ssl": {
@@ -190,8 +190,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 139,
+        "ms": 221,
         "error": null
       },
       "ssl": {
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
