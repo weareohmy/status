@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T09:46:09.636Z",
+  "generatedAt": "2026-06-22T09:51:09.701Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 319,
+        "ms": 232,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 327,
+        "ms": 473,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 352,
+        "ms": 481,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 225,
+        "ms": 229,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 205,
+        "ms": 223,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 230,
+        "ms": 253,
         "error": null
       },
       "ssl": {
