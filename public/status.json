@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T18:01:23.550Z",
+  "generatedAt": "2026-06-26T18:06:00.024Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 801,
+        "ms": 58,
         "error": null
       },
       "ssl": {
@@ -20,17 +20,17 @@
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 491,
-        "source": "https://rdap.identitydigital.services/rdap/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 481,
+        "ms": 607,
         "error": null
       },
       "ssl": {
@@ -59,17 +59,17 @@
         "subject": "www.noteworthy.co.uk"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-12-02T01:40:55.000Z",
-        "daysLeft": 524,
-        "source": "https://rdap.nominet.uk/uk/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 260,
+        "ms": 495,
         "error": null
       },
       "ssl": {
@@ -99,17 +99,17 @@
         "subject": "www.currentvehicles.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-05-27T17:31:47.000Z",
-        "daysLeft": 335,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 220,
+        "ms": 457,
         "error": null
       },
       "ssl": {
@@ -138,17 +138,17 @@
         "subject": "www.rbbecon.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 234,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 486,
+        "ms": 310,
         "error": null
       },
       "ssl": {
@@ -177,21 +177,21 @@
         "subject": "www.sonder-mr.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2031-06-25T11:03:18.000Z",
-        "daysLeft": 1825,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 234,
+        "ms": 310,
         "error": null
       },
       "ssl": {
@@ -217,17 +217,17 @@
         "subject": "www.auriens.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-02-28T11:13:20.000Z",
-        "daysLeft": 247,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected non-whitespace character after JSON at position 71322"
       },
       "dns": {
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
