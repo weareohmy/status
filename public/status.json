@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T11:31:24.603Z",
+  "generatedAt": "2026-06-27T11:36:00.535Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,21 +9,21 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 16,
+        "ms": 363,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-09-11T11:34:05.000Z",
-        "daysLeft": 77,
+        "daysLeft": 76,
         "issuer": "Let's Encrypt",
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 491,
-        "source": "https://rdap.identitydigital.services/rdap/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected token '<', \"<!doctype \"... is not valid JSON"
       },
       "dns": {
         "ok": true,
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 113,
+        "ms": 647,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 202,
+        "ms": 474,
         "error": null
       },
       "ssl": {
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 355,
+        "ms": 201,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 461,
+        "ms": 240,
         "error": null
       },
       "ssl": {
@@ -186,8 +186,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5",
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 206,
+        "ms": 229,
         "error": null
       },
       "ssl": {
