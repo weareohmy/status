@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-30T09:06:36.996Z",
+  "generatedAt": "2026-06-30T09:11:49.497Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-06-30T09:06:36.996Z",
+      "fetchedAt": "2026-06-30T09:11:49.497Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "operational",
+      "summary": "outage",
       "components": [
         {
           "id": "cda",
@@ -37,13 +37,13 @@
         {
           "id": "site",
           "name": "Website",
-          "status": "operational"
+          "status": "outage"
         }
       ]
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-06-30T09:06:36.996Z",
+      "fetchedAt": "2026-06-30T09:11:49.497Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
