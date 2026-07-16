@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:21:12.448Z",
+  "generatedAt": "2026-07-16T22:26:04.205Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 64,
+        "ms": 707,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 424,
+        "ms": 639,
         "error": null
       },
       "ssl": {
@@ -88,13 +88,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 210,
+        "ms": 719,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-09-24T22:23:48.000Z",
-        "daysLeft": 71,
+        "daysLeft": 70,
         "issuer": "Let's Encrypt",
         "subject": "www.currentvehicles.com"
       },
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 235,
+        "ms": 273,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 248,
+        "ms": 284,
         "error": null
       },
       "ssl": {
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 263,
+        "ms": 612,
         "error": null
       },
       "ssl": {
@@ -226,8 +226,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
