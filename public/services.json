@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-18T16:26:36.688Z",
+  "generatedAt": "2026-07-18T16:28:50.062Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-07-18T16:26:36.688Z",
+      "fetchedAt": "2026-07-18T16:28:50.062Z",
       "ok": false,
-      "httpStatus": 500,
-      "error": "HTTP 500",
+      "httpStatus": null,
+      "error": "AbortError: This operation was aborted",
       "summary": "unknown",
       "components": []
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-07-18T16:26:36.688Z",
+      "fetchedAt": "2026-07-18T16:28:50.062Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
