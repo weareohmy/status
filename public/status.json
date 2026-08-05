@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:48:34.311Z",
+  "generatedAt": "2026-08-05T21:51:19.259Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 16,
+        "ms": 261,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 135,
+        "ms": 498,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 147,
+        "ms": 485,
         "error": null
       },
       "ssl": {
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 108,
+        "ms": 169,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 604,
+        "ms": 366,
         "error": null
       },
       "ssl": {
@@ -190,8 +190,8 @@
           "13.52.188.95"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 662,
+        "ms": 618,
         "error": null
       },
       "ssl": {
