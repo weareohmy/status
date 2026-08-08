@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:22:24.592Z",
+  "generatedAt": "2026-08-08T11:26:10.981Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 116,
+        "ms": 62,
         "error": null
       },
       "ssl": {
@@ -48,13 +48,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 268,
+        "ms": 117,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-08-16T11:24:02.000Z",
-        "daysLeft": 9,
+        "daysLeft": 8,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 266,
+        "ms": 168,
         "error": null
       },
       "ssl": {
@@ -108,8 +108,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 209,
+        "ms": 81,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 16,
+        "ms": 74,
         "error": null
       },
       "ssl": {
@@ -190,8 +190,8 @@
           "52.52.192.191"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 241,
+        "ms": 87,
         "error": null
       },
       "ssl": {
