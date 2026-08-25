@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T11:01:31.693Z",
+  "generatedAt": "2026-08-25T11:03:51.699Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 113,
+        "ms": 31,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 112,
+        "ms": 2229,
         "error": null
       },
       "ssl": {
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 309,
+        "ms": 2232,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 68,
+        "ms": 152,
         "error": null
       },
       "ssl": {
@@ -147,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 22,
+        "ms": 190,
         "error": null
       },
       "ssl": {
@@ -179,15 +179,15 @@
       "domain": {
         "ok": true,
         "expiresAt": "2031-06-25T11:03:18.000Z",
-        "daysLeft": 1766,
+        "daysLeft": 1765,
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "99.83.231.61",
@@ -206,7 +206,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 362,
+        "ms": 486,
         "error": null
       },
       "ssl": {
