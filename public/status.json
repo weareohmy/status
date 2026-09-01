@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:21:22.205Z",
+  "generatedAt": "2026-09-01T00:26:08.378Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -7,16 +7,17 @@
         "url": "https://www.ohmy.studio"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 7,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-11-10T10:44:00.000Z",
+        "daysLeft": 71,
+        "issuer": "Let's Encrypt",
+        "subject": "www.ohmy.studio"
       },
       "domain": {
         "ok": true,
@@ -28,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -45,16 +46,17 @@
         "url": "https://www.noteworthy.co.uk"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 18,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-11-19T21:33:47.000Z",
+        "daysLeft": 80,
+        "issuer": "Let's Encrypt",
+        "subject": "www.noteworthy.co.uk"
       },
       "domain": {
         "ok": true,
@@ -84,16 +86,17 @@
         "url": "https://www.currentvehicles.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 162,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-11-23T21:33:48.000Z",
+        "daysLeft": 84,
+        "issuer": "Let's Encrypt",
+        "subject": "www.currentvehicles.com"
       },
       "domain": {
         "ok": true,
@@ -122,16 +125,17 @@
         "url": "https://www.rbbecon.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 155,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-10-13T18:23:48.000Z",
+        "daysLeft": 43,
+        "issuer": "Let's Encrypt",
+        "subject": "www.rbbecon.com"
       },
       "domain": {
         "ok": true,
@@ -143,8 +147,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -160,16 +164,17 @@
         "url": "https://www.sonder-mr.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 163,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-11-09T09:34:00.000Z",
+        "daysLeft": 70,
+        "issuer": "Let's Encrypt",
+        "subject": "www.sonder-mr.com"
       },
       "domain": {
         "ok": true,
@@ -199,16 +204,17 @@
         "url": "https://www.auriens.com"
       },
       "http": {
-        "ok": false,
-        "status": null,
-        "ms": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "status": 200,
+        "ms": 168,
+        "error": null
       },
       "ssl": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "AggregateError"
+        "ok": true,
+        "expiresAt": "2026-11-26T03:53:46.000Z",
+        "daysLeft": 87,
+        "issuer": "Let's Encrypt",
+        "subject": "www.auriens.com"
       },
       "domain": {
         "ok": true,
