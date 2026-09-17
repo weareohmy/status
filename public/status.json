@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T03:51:18.947Z",
+  "generatedAt": "2026-09-17T03:56:17.014Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 275,
+        "ms": 551,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 291,
+        "ms": 524,
         "error": null
       },
       "ssl": {
@@ -59,17 +59,17 @@
         "subject": "www.noteworthy.co.uk"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-12-02T01:40:55.000Z",
-        "daysLeft": 441,
-        "source": "https://rdap.nominet.uk/uk/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "TypeError: fetch failed"
       },
       "dns": {
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "54.208.236.76",
@@ -88,7 +88,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 307,
+        "ms": 555,
         "error": null
       },
       "ssl": {
@@ -127,7 +127,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 207,
+        "ms": 251,
         "error": null
       },
       "ssl": {
@@ -166,7 +166,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 312,
+        "ms": 310,
         "error": null
       },
       "ssl": {
@@ -206,13 +206,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 252,
+        "ms": 304,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-11-26T03:53:46.000Z",
-        "daysLeft": 71,
+        "daysLeft": 70,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
