@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T03:51:19.566Z",
+  "generatedAt": "2026-09-20T03:54:49.739Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 174,
+        "ms": 538,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 55,
+        "ms": 537,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 199,
+        "ms": 546,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 122,
+        "ms": 296,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 133,
+        "ms": 312,
         "error": null
       },
       "ssl": {
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "99.83.231.61",
@@ -205,13 +205,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 517,
+        "ms": 307,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-11-26T03:53:46.000Z",
-        "daysLeft": 68,
+        "daysLeft": 67,
         "issuer": "Let's Encrypt",
         "subject": "www.auriens.com"
       },
