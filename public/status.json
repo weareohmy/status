@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T04:06:17.275Z",
+  "generatedAt": "2026-09-21T04:11:23.261Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 593,
+        "ms": 233,
         "error": null
       },
       "ssl": {
@@ -29,7 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "54.232.119.62"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -47,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1589,
+        "ms": 312,
         "error": null
       },
       "ssl": {
@@ -67,7 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "54.232.119.62"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -85,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1647,
+        "ms": 336,
         "error": null
       },
       "ssl": {
@@ -105,7 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "54.232.119.62"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -123,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 437,
+        "ms": 80,
         "error": null
       },
       "ssl": {
@@ -143,7 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "54.232.119.62"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -161,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1106,
+        "ms": 266,
         "error": null
       },
       "ssl": {
@@ -181,7 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "54.232.119.62"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "99.83.231.61",
@@ -200,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 1163,
+        "ms": 287,
         "error": null
       },
       "ssl": {
@@ -220,7 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "54.232.119.62"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
