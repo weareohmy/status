@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:11:20.725Z",
+  "generatedAt": "2026-09-21T07:16:22.441Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 66,
+        "ms": 256,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 114,
+        "ms": 252,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 266,
+        "ms": 548,
         "error": null
       },
       "ssl": {
@@ -126,13 +126,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 155,
+        "ms": 201,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-12-17T07:12:57.000Z",
-        "daysLeft": 88,
+        "daysLeft": 87,
         "issuer": "Let's Encrypt",
         "subject": "www.rbbecon.com"
       },
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 154,
+        "ms": 262,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 153,
+        "ms": 271,
         "error": null
       },
       "ssl": {
