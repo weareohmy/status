@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-22T09:53:08.613Z",
+  "generatedAt": "2026-09-22T09:56:26.060Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-09-22T09:53:08.613Z",
+      "fetchedAt": "2026-09-22T09:56:26.060Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -17,33 +17,33 @@
         {
           "id": "cma",
           "name": "Content Management API",
-          "status": "unknown"
+          "status": "operational"
         },
         {
           "id": "assets",
           "name": "Assets CDN",
-          "status": "unknown"
+          "status": "operational"
         },
         {
           "id": "administrativeAreas",
           "name": "Projects administrative interface",
-          "status": "unknown"
+          "status": "operational"
         },
         {
           "id": "dashboard",
           "name": "Account dashboard interface",
-          "status": "unknown"
+          "status": "operational"
         },
         {
           "id": "site",
           "name": "Website",
-          "status": "unknown"
+          "status": "operational"
         }
       ]
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-09-22T09:53:08.613Z",
+      "fetchedAt": "2026-09-22T09:56:26.060Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
