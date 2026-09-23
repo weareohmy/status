@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:31:16.359Z",
+  "generatedAt": "2026-09-23T09:36:08.404Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 173,
+        "ms": 93,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 189,
+        "ms": 100,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 258,
+        "ms": 143,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 210,
+        "ms": 114,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,13 +165,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 227,
+        "ms": 121,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2026-11-09T09:34:00.000Z",
-        "daysLeft": 48,
+        "daysLeft": 47,
         "issuer": "Let's Encrypt",
         "subject": "www.sonder-mr.com"
       },
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "99.83.231.61",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 231,
+        "ms": 205,
         "error": null
       },
       "ssl": {
