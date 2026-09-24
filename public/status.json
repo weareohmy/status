@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T16:21:27.257Z",
+  "generatedAt": "2026-09-24T16:24:07.179Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 383,
+        "ms": 44,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 322,
+        "ms": 1817,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 327,
+        "ms": 150,
         "error": null
       },
       "ssl": {
@@ -98,17 +98,17 @@
         "subject": "www.currentvehicles.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "expiresAt": "2027-05-27T17:31:47.000Z",
+        "daysLeft": 246,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 176,
+        "ms": 150,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 247,
+        "ms": 84,
         "error": null
       },
       "ssl": {
@@ -185,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 249,
+        "ms": 149,
         "error": null
       },
       "ssl": {
