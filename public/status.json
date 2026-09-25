@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:39:17.914Z",
+  "generatedAt": "2026-09-25T19:41:21.334Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 322,
+        "ms": 70,
         "error": null
       },
       "ssl": {
@@ -20,17 +20,17 @@
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-10-30T14:42:05.873Z",
-        "daysLeft": 400,
-        "source": "https://rdap.identitydigital.services/rdap/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "SyntaxError: Unexpected token '<', \"<!doctype \"... is not valid JSON"
       },
       "dns": {
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 319,
+        "ms": 177,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 517,
+        "ms": 171,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 262,
+        "ms": 172,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 309,
+        "ms": 241,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 283,
+        "ms": 190,
         "error": null
       },
       "ssl": {
