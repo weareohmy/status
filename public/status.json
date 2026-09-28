@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:56:15.074Z",
+  "generatedAt": "2026-09-28T23:00:59.341Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 126,
+        "ms": 185,
         "error": null
       },
       "ssl": {
@@ -20,17 +20,17 @@
         "subject": "www.ohmy.studio"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2027-10-30T14:42:05.873Z",
+        "daysLeft": 397,
+        "source": "https://rdap.identitydigital.services/rdap/"
       },
       "dns": {
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 191,
+        "ms": 132,
         "error": null
       },
       "ssl": {
@@ -59,17 +59,17 @@
         "subject": "www.noteworthy.co.uk"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2027-12-02T01:40:55.000Z",
+        "daysLeft": 430,
+        "source": "https://rdap.nominet.uk/uk/"
       },
       "dns": {
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 413,
+        "ms": 196,
         "error": null
       },
       "ssl": {
@@ -98,10 +98,10 @@
         "subject": "www.currentvehicles.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2027-05-27T17:31:47.000Z",
+        "daysLeft": 241,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 140,
+        "ms": 238,
         "error": null
       },
       "ssl": {
@@ -137,17 +137,17 @@
         "subject": "www.rbbecon.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2027-02-15T10:23:04.000Z",
+        "daysLeft": 140,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 65,
+        "ms": 475,
         "error": null
       },
       "ssl": {
@@ -176,21 +176,21 @@
         "subject": "www.sonder-mr.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2031-06-25T11:03:18.000Z",
+        "daysLeft": 1731,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 185,
+        "ms": 184,
         "error": null
       },
       "ssl": {
@@ -216,10 +216,10 @@
         "subject": "www.auriens.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 71223"
+        "ok": true,
+        "expiresAt": "2027-02-28T11:13:20.000Z",
+        "daysLeft": 153,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
