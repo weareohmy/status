@@ -40,5 +40,19 @@
     "url": "https://www.auriens.com",
     "host": "www.auriens.com",
     "domain": "auriens.com"
+  },
+  {
+    "slug": "pikl",
+    "name": "Pikl",
+    "url": "https://www.pikl.com",
+    "host": "www.pikl.com",
+    "domain": "pikl.com"
+  },
+  {
+    "slug": "kosign",
+    "name": "Kosign",
+    "url": "https://www.kosignmusic.com",
+    "host": "www.kosignmusic.com",
+    "domain": "kosignmusic.com"
   }
 ]
