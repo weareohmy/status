@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:06:21.763Z",
+  "generatedAt": "2026-10-04T09:11:27.745Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 215,
+        "ms": 286,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 223,
+        "ms": 388,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 219,
+        "ms": 306,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 257,
+        "ms": 166,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 292,
+        "ms": 187,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 307,
+        "ms": 573,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 600,
+        "ms": 488,
         "error": null
       },
       "ssl": {
@@ -268,8 +268,8 @@
           "18.168.25.133"
         ],
         "rootA": [
-          "13.43.67.116",
-          "18.168.25.133"
+          "18.168.25.133",
+          "13.43.67.116"
         ],
         "cnameValid": false,
         "rootValid": false,
@@ -284,7 +284,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 245,
+        "ms": 322,
         "error": null
       },
       "ssl": {
@@ -304,8 +304,8 @@
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
