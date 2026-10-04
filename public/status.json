@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:06:55.661Z",
+  "generatedAt": "2026-10-04T10:11:26.286Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 365,
+        "ms": 233,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 343,
+        "ms": 230,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 408,
+        "ms": 283,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 270,
+        "ms": 231,
         "error": null
       },
       "ssl": {
@@ -185,8 +185,8 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 241,
+        "ms": 419,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 446,
+        "ms": 510,
         "error": null
       },
       "ssl": {
@@ -264,8 +264,8 @@
         "ok": true,
         "cname": null,
         "a": [
-          "18.168.25.133",
-          "13.43.67.116"
+          "13.43.67.116",
+          "18.168.25.133"
         ],
         "rootA": [
           "13.43.67.116",
@@ -284,7 +284,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 238,
+        "ms": 267,
         "error": null
       },
       "ssl": {
