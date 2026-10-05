@@ -425,17 +425,6 @@ const base = import.meta.env.BASE_URL;
       .platform-components :global(.component-dot.degraded) { background: #f4c97a; }
       .platform-components :global(.component-dot.outage) { background: #f87171; }
 
-      /* Uptime bar */
-      .uptime-segment {
-        flex: 1;
-        border-radius: 2px;
-        min-width: 2px;
-        transition: opacity 0.15s;
-      }
-      .uptime-segment:hover { opacity: 0.7; }
-      .uptime-segment.up { background: var(--green); }
-      .uptime-segment.down { background: var(--red); }
-      .uptime-segment.no-data { background: var(--border); }
     </style>
   </head>
   <body>
@@ -562,9 +551,6 @@ const base = import.meta.env.BASE_URL;
       const SERVICES_URL = isDev
         ? `${base}/services.json`
         : "https://raw.githubusercontent.com/weareohmy/status/main/public/services.json";
-      const HISTORY_URL = isDev
-        ? `${base}/history.json`
-        : "https://raw.githubusercontent.com/weareohmy/status/main/public/history.json";
 
       /* Header time */
       const now = new Date();
@@ -794,59 +780,8 @@ const base = import.meta.env.BASE_URL;
         }
       }
 
-      async function loadHistory() {
-        try {
-          const res = await fetch(HISTORY_URL, { cache: "no-store" });
-          if (!res.ok) throw new Error("not found");
-          const data = await res.json();
-          const entries = data.sites?.[slug] || [];
-
-          if (entries.length === 0) {
-            document.querySelector("#uptime-pct").textContent = "No history yet";
-            document.querySelector("#uptime-bar").innerHTML = "";
-            return;
-          }
-
-          const total = entries.length;
-          const okCount = entries.filter(e => e.ok).length;
-          const pct = (okCount / total * 100).toFixed(1);
-
-          document.querySelector("#uptime-pct").textContent = `${pct}% uptime`;
-          const badge = document.querySelector("#uptime-badge");
-          if (pct >= 99.5) { badge.className = "card-badge green"; badge.textContent = "Healthy"; }
-          else if (pct >= 95) { badge.className = "card-badge amber"; badge.textContent = "Degraded"; }
-          else { badge.className = "card-badge red"; badge.textContent = "Poor"; }
-
-          const SEGMENTS = 84;
-          const nowMs = Date.now();
-          const sevenDays = 7 * 24 * 60 * 60 * 1000;
-          const start = nowMs - sevenDays;
-          const bucketSize = sevenDays / SEGMENTS;
-
-          const buckets = Array.from({ length: SEGMENTS }, () => ({ total: 0, ok: 0 }));
-          for (const e of entries) {
-            const t = new Date(e.t).getTime();
-            const idx = Math.min(Math.floor((t - start) / bucketSize), SEGMENTS - 1);
-            if (idx >= 0) { buckets[idx].total++; if (e.ok) buckets[idx].ok++; }
-          }
-
-          const bar = document.querySelector("#uptime-bar");
-          bar.innerHTML = buckets.map(b => {
-            const cls = b.total === 0 ? "no-data" : (b.ok === b.total ? "up" : "down");
-            return `<div class="uptime-segment ${cls}" title="${b.ok}/${b.total} checks OK"></div>`;
-          }).join("");
-
-          document.querySelector("#uptime-start").textContent =
-            new Date(start).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-          document.querySelector("#uptime-end").textContent = "Now";
-        } catch {
-          document.querySelector("#uptime-pct").textContent = "No history yet";
-          document.querySelector("#uptime-bar").innerHTML = "";
-        }
-      }
-
       function refreshAll() {
-        return Promise.all([loadStatus(), loadServices(), loadHistory()]).catch(() => {
+        return Promise.all([loadStatus(), loadServices()]).catch(() => {
           document.querySelector("#status-text").textContent = "Could not load status data";
         });
       }
