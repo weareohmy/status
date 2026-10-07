@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T11:28:21.062Z",
+  "generatedAt": "2026-10-07T11:31:34.354Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 237,
+        "ms": 640,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 577,
+        "ms": 119,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 350,
+        "ms": 260,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 193,
+        "ms": 81,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 214,
+        "ms": 369,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 230,
+        "ms": 85,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 917,
+        "ms": 125,
         "error": null
       },
       "ssl": {
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 132,
+        "ms": 82,
         "error": null
       },
       "ssl": {
@@ -303,8 +303,8 @@
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
