@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T11:51:33.888Z",
+  "generatedAt": "2026-10-13T11:57:51.349Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 524,
+        "ms": 301,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 601,
+        "ms": 320,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 389,
+        "ms": 312,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 185,
+        "ms": 179,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 256,
+        "ms": 230,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 396,
+        "ms": 239,
         "error": null
       },
       "ssl": {
@@ -225,8 +225,8 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 311,
+        "ms": 281,
         "error": null
       },
       "ssl": {
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 226,
+        "ms": 209,
         "error": null
       },
       "ssl": {
