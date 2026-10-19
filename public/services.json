@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T08:34:51.783Z",
+  "generatedAt": "2026-10-19T08:36:29.284Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-10-19T08:34:51.783Z",
+      "fetchedAt": "2026-10-19T08:36:29.284Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -32,18 +32,18 @@
         {
           "id": "dashboard",
           "name": "Account dashboard interface",
-          "status": "operational"
+          "status": "unknown"
         },
         {
           "id": "site",
           "name": "Website",
-          "status": "operational"
+          "status": "unknown"
         }
       ]
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-10-19T08:34:51.783Z",
+      "fetchedAt": "2026-10-19T08:36:29.284Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
