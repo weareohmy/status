@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T12:51:36.023Z",
+  "generatedAt": "2026-10-26T12:56:32.893Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 103,
+        "ms": 773,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,7 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "54.232.119.62"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +47,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 93,
+        "ms": 1250,
         "error": null
       },
       "ssl": {
@@ -68,8 +67,7 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +85,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 204,
+        "ms": 959,
         "error": null
       },
       "ssl": {
@@ -107,8 +105,7 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +123,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 186,
+        "ms": 750,
         "error": null
       },
       "ssl": {
@@ -146,8 +143,7 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +161,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 292,
+        "ms": 1821,
         "error": null
       },
       "ssl": {
@@ -185,12 +181,11 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "54.232.119.62"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +200,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 197,
+        "ms": 1589,
         "error": null
       },
       "ssl": {
@@ -225,8 +220,7 @@
         "ok": true,
         "cname": "auriens-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
@@ -244,7 +238,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 345,
+        "ms": 987,
         "error": null
       },
       "ssl": {
@@ -264,8 +258,7 @@
         "ok": true,
         "cname": "pikl-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
@@ -283,7 +276,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 111,
+        "ms": 572,
         "error": null
       },
       "ssl": {
@@ -303,8 +296,7 @@
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "54.232.119.62"
         ],
         "rootA": [
           "75.2.60.5"
