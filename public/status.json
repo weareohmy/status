@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T04:49:06.340Z",
+  "generatedAt": "2026-10-27T04:51:10.043Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 193,
+        "ms": 175,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 411,
+        "ms": 318,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 262,
+        "ms": 260,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 212,
+        "ms": 254,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 262,
+        "ms": 400,
         "error": null
       },
       "ssl": {
@@ -176,10 +176,10 @@
         "subject": "www.sonder-mr.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2031-06-25T11:03:18.000Z",
-        "daysLeft": 1703,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "TypeError: fetch failed"
       },
       "dns": {
         "ok": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 219,
+        "ms": 252,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 310,
+        "ms": 383,
         "error": null
       },
       "ssl": {
@@ -264,8 +264,8 @@
         "ok": true,
         "cname": "pikl-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 220,
+        "ms": 495,
         "error": null
       },
       "ssl": {
@@ -294,17 +294,17 @@
         "subject": "kosignmusic.com"
       },
       "domain": {
-        "ok": true,
-        "expiresAt": "2027-08-08T09:52:38.000Z",
-        "daysLeft": 286,
-        "source": "https://rdap.verisign.com/com/v1/"
+        "ok": false,
+        "expiresAt": null,
+        "daysLeft": null,
+        "error": "TypeError: fetch failed"
       },
       "dns": {
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
