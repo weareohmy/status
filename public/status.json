@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T04:51:10.043Z",
+  "generatedAt": "2026-10-27T04:56:25.916Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 175,
+        "ms": 602,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 318,
+        "ms": 295,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 260,
+        "ms": 419,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 254,
+        "ms": 333,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 400,
+        "ms": 202,
         "error": null
       },
       "ssl": {
@@ -176,17 +176,17 @@
         "subject": "www.sonder-mr.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "expiresAt": "2031-06-25T11:03:18.000Z",
+        "daysLeft": 1703,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "99.83.231.61",
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 252,
+        "ms": 500,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 383,
+        "ms": 231,
         "error": null
       },
       "ssl": {
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 495,
+        "ms": 141,
         "error": null
       },
       "ssl": {
@@ -294,10 +294,10 @@
         "subject": "kosignmusic.com"
       },
       "domain": {
-        "ok": false,
-        "expiresAt": null,
-        "daysLeft": null,
-        "error": "TypeError: fetch failed"
+        "ok": true,
+        "expiresAt": "2027-08-08T09:52:38.000Z",
+        "daysLeft": 286,
+        "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
         "ok": true,
