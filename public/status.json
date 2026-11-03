@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T04:56:34.565Z",
+  "generatedAt": "2026-11-03T04:59:52.908Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 231,
+        "ms": 333,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 229,
+        "ms": 846,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 247,
+        "ms": 653,
         "error": null
       },
       "ssl": {
@@ -107,8 +107,8 @@
         "ok": true,
         "cname": "current-website-production.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 113,
+        "ms": 222,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 160,
+        "ms": 366,
         "error": null
       },
       "ssl": {
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 165,
+        "ms": 271,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 431,
+        "ms": 476,
         "error": null
       },
       "ssl": {
@@ -264,8 +264,8 @@
         "ok": true,
         "cname": "pikl-website.netlify.app",
         "a": [
-          "18.208.88.157",
-          "98.84.224.111"
+          "98.84.224.111",
+          "18.208.88.157"
         ],
         "rootA": [
           "75.2.60.5"
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 140,
+        "ms": 205,
         "error": null
       },
       "ssl": {
@@ -303,8 +303,8 @@
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
