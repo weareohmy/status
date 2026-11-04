@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-04T17:18:10.266Z",
+  "generatedAt": "2026-11-04T17:22:11.136Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-11-04T17:18:10.266Z",
+      "fetchedAt": "2026-11-04T17:22:11.136Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-11-04T17:18:10.266Z",
+      "fetchedAt": "2026-11-04T17:22:11.136Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "degraded",
+      "summary": "operational",
       "page": null,
       "components": [
         {
@@ -68,7 +68,7 @@
         {
           "id": "999zpz7s4z44",
           "name": "Build Pipeline",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "id": "y7hq47ts327k",
