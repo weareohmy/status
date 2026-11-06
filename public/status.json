@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:16:15.237Z",
+  "generatedAt": "2026-11-06T20:19:58.511Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 476,
+        "ms": 236,
         "error": null
       },
       "ssl": {
@@ -29,8 +29,8 @@
         "ok": true,
         "cname": "ohmy-website-v4.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "104.198.14.52"
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 586,
+        "ms": 236,
         "error": null
       },
       "ssl": {
@@ -68,8 +68,8 @@
         "ok": true,
         "cname": "noteworthy-website.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
           "75.2.60.5"
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 590,
+        "ms": 390,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 196,
+        "ms": 219,
         "error": null
       },
       "ssl": {
@@ -146,8 +146,8 @@
         "ok": true,
         "cname": "rbb-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 213,
+        "ms": 223,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "52.52.192.191"
         ],
         "rootA": [
-          "75.2.60.5",
-          "99.83.231.61"
+          "99.83.231.61",
+          "75.2.60.5"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 826,
+        "ms": 447,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 323,
+        "ms": 393,
         "error": null
       },
       "ssl": {
@@ -264,8 +264,8 @@
         "ok": true,
         "cname": "pikl-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 259,
+        "ms": 247,
         "error": null
       },
       "ssl": {
