@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T14:42:48.690Z",
+  "generatedAt": "2026-11-12T14:46:39.773Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-11-12T14:42:48.690Z",
+      "fetchedAt": "2026-11-12T14:46:39.773Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -22,7 +22,7 @@
         {
           "id": "assets",
           "name": "Assets CDN",
-          "status": "unknown"
+          "status": "operational"
         },
         {
           "id": "administrativeAreas",
@@ -32,18 +32,18 @@
         {
           "id": "dashboard",
           "name": "Account dashboard interface",
-          "status": "operational"
+          "status": "unknown"
         },
         {
           "id": "site",
           "name": "Website",
-          "status": "unknown"
+          "status": "operational"
         }
       ]
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-11-12T14:42:48.690Z",
+      "fetchedAt": "2026-11-12T14:46:39.773Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
