@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T11:06:43.657Z",
+  "generatedAt": "2026-11-16T11:12:03.164Z",
   "providers": {
     "datocms": {
       "source": "https://status.datocms.com/api/component-status?days=60",
-      "fetchedAt": "2026-11-16T11:06:43.657Z",
+      "fetchedAt": "2026-11-16T11:12:03.164Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
@@ -27,7 +27,7 @@
         {
           "id": "administrativeAreas",
           "name": "Projects administrative interface",
-          "status": "operational"
+          "status": "unknown"
         },
         {
           "id": "dashboard",
@@ -43,11 +43,11 @@
     },
     "netlify": {
       "source": "https://www.netlifystatus.com/api/v2/summary.json",
-      "fetchedAt": "2026-11-16T11:06:43.657Z",
+      "fetchedAt": "2026-11-16T11:12:03.164Z",
       "ok": true,
       "httpStatus": 200,
       "error": null,
-      "summary": "operational",
+      "summary": "degraded",
       "page": null,
       "components": [
         {
