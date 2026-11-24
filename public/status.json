@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:21:40.948Z",
+  "generatedAt": "2026-11-24T10:26:25.951Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 667,
+        "ms": 193,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 620,
+        "ms": 200,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 688,
+        "ms": 214,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 165,
+        "ms": 365,
         "error": null
       },
       "ssl": {
@@ -139,7 +139,7 @@
       "domain": {
         "ok": true,
         "expiresAt": "2027-02-15T10:23:04.000Z",
-        "daysLeft": 84,
+        "daysLeft": 83,
         "source": "https://rdap.verisign.com/com/v1/"
       },
       "dns": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 234,
+        "ms": 207,
         "error": null
       },
       "ssl": {
@@ -185,12 +185,12 @@
         "ok": true,
         "cname": "sonder-website-production.netlify.app",
         "a": [
-          "13.52.188.95",
-          "52.52.192.191"
+          "52.52.192.191",
+          "13.52.188.95"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 336,
+        "ms": 309,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 294,
+        "ms": 341,
         "error": null
       },
       "ssl": {
@@ -283,15 +283,15 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 284,
+        "ms": 235,
         "error": null
       },
       "ssl": {
         "ok": true,
-        "expiresAt": "2026-12-24T10:19:27.000Z",
-        "daysLeft": 30,
+        "expiresAt": "2027-02-22T09:23:46.000Z",
+        "daysLeft": 90,
         "issuer": "Let's Encrypt",
-        "subject": "kosignmusic.com"
+        "subject": "www.kosignmusic.com"
       },
       "domain": {
         "ok": true,
@@ -303,8 +303,8 @@
         "ok": true,
         "cname": "kosign-website.netlify.app",
         "a": [
-          "52.52.192.191",
-          "13.52.188.95"
+          "13.52.188.95",
+          "52.52.192.191"
         ],
         "rootA": [
           "75.2.60.5"
