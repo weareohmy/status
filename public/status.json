@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:41:21.890Z",
+  "generatedAt": "2026-11-25T20:44:21.081Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 348,
+        "ms": 235,
         "error": null
       },
       "ssl": {
@@ -48,13 +48,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 357,
+        "ms": 228,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2027-01-18T20:43:48.000Z",
-        "daysLeft": 55,
+        "daysLeft": 54,
         "issuer": "Let's Encrypt",
         "subject": "www.noteworthy.co.uk"
       },
@@ -87,13 +87,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 493,
+        "ms": 286,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2027-01-22T20:43:49.000Z",
-        "daysLeft": 59,
+        "daysLeft": 58,
         "issuer": "Let's Encrypt",
         "subject": "www.currentvehicles.com"
       },
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 285,
+        "ms": 269,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 255,
+        "ms": 290,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "98.84.224.111"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 252,
+        "ms": 297,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 372,
+        "ms": 362,
         "error": null
       },
       "ssl": {
@@ -264,8 +264,8 @@
         "ok": true,
         "cname": "pikl-website.netlify.app",
         "a": [
-          "98.84.224.111",
-          "18.208.88.157"
+          "18.208.88.157",
+          "98.84.224.111"
         ],
         "rootA": [
           "75.2.60.5"
@@ -283,7 +283,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 250,
+        "ms": 225,
         "error": null
       },
       "ssl": {
