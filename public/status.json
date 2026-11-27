@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T09:21:53.667Z",
+  "generatedAt": "2026-11-27T09:24:09.366Z",
   "sites": {
     "ohmy": {
       "meta": {
@@ -9,7 +9,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 150,
+        "ms": 197,
         "error": null
       },
       "ssl": {
@@ -48,7 +48,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 134,
+        "ms": 191,
         "error": null
       },
       "ssl": {
@@ -87,7 +87,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 149,
+        "ms": 195,
         "error": null
       },
       "ssl": {
@@ -126,7 +126,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 179,
+        "ms": 105,
         "error": null
       },
       "ssl": {
@@ -165,7 +165,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 131,
+        "ms": 112,
         "error": null
       },
       "ssl": {
@@ -189,8 +189,8 @@
           "18.208.88.157"
         ],
         "rootA": [
-          "99.83.231.61",
-          "75.2.60.5"
+          "75.2.60.5",
+          "99.83.231.61"
         ],
         "cnameValid": true,
         "rootValid": true,
@@ -205,7 +205,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 135,
+        "ms": 121,
         "error": null
       },
       "ssl": {
@@ -244,7 +244,7 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 161,
+        "ms": 202,
         "error": null
       },
       "ssl": {
@@ -283,13 +283,13 @@
       "http": {
         "ok": true,
         "status": 200,
-        "ms": 81,
+        "ms": 144,
         "error": null
       },
       "ssl": {
         "ok": true,
         "expiresAt": "2027-02-22T09:23:46.000Z",
-        "daysLeft": 88,
+        "daysLeft": 87,
         "issuer": "Let's Encrypt",
         "subject": "www.kosignmusic.com"
       },
